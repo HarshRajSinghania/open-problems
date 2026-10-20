@@ -81,6 +81,12 @@
         text: "priority: " + p.priority }),
       el("span", { class: "badge", text: "status: " + p.status }),
     ];
+    if (p.world_series) {
+      badges.push(el("span", { class: "badge",
+        title: "Latest World figures from the UN SDG Global Database",
+        text: "📊 " + p.world_series + " UN World figure" +
+          (p.world_series > 1 ? "s" : "") }));
+    }
     return el("article", { class: "card", style: "--goal:#" + g.colour }, [
       el("div", { class: "goal", text: "Goal " + p.goal + " · " + g.short }),
       el("h2", {}, [el("a", { href: p.url, text: p.target + " · " + p.title })]),
