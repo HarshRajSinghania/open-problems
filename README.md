@@ -4,7 +4,8 @@
 
 <p align="center">
   <b>A community map of the UN Sustainable Development Goals, turned into open-source tasks.</b><br>
-  Pick a problem, pick a task, ship a fix.
+  Pick a problem, pick a task, ship a fix.<br>
+  <a href="https://harrythentrepreneur.github.io/open-problems/"><b>Browse the catalogue →</b></a>
 </p>
 
 <p align="center">
@@ -141,6 +142,7 @@ You do not need to be a programmer. We need:
 | I want to... | Go to |
 |---|---|
 | See a fully worked example | [6.3 Water quality](goals/06-clean-water-and-sanitation/6.3-water-quality/problem.md) |
+| Browse and filter all 169 targets | [The catalogue](https://harrythentrepreneur.github.io/open-problems/) |
 | Find something small to do | [Good first issues](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) |
 | Understand the rules | [CONTRIBUTING.md](CONTRIBUTING.md) · [How we work](how-we-work/) |
 | Suggest a new problem | [Open a suggestion](https://github.com/harrythentrepreneur/open-problems/issues/new?template=01-suggest-a-problem.yml) |
@@ -166,7 +168,8 @@ count just as much.
 | [`how-we-work/`](how-we-work/) | Roles, code of conduct, AI use, licensing, privacy and safety, problem lifecycle, decisions |
 | [`templates/`](templates/) | Templates for new problems and solutions |
 | [`shared/`](shared/) | Code and data reused across goals |
-| [`tools/`](tools/) | Scripts that import UN data, check files and rebuild these tables |
+| [`tools/`](tools/) | Scripts that import UN data, check files, rebuild these tables and the catalogue |
+| [`site/`](site/) | The [catalogue website](https://harrythentrepreneur.github.io/open-problems/) (plain HTML, CSS, JS) |
 | [`data/`](data/) | Snapshots of the UN data we use, with dates |
 
 ## Disclaimer

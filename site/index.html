@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Open Problems · SDG catalogue</title>
+  <meta name="description" content="The 169 UN Sustainable Development Goal targets as open-source problems. Search, filter and find a task.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Open Problems</h1>
+    <p>The UN Sustainable Development Goals as open-source tasks.
+      Find a problem, read it, pick a task.</p>
+    <div id="goal-strip" class="goal-strip" aria-label="Filter by goal"></div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Search and filters">
+      <input id="q" type="search" placeholder="Search targets, e.g. water, malaria, 6.3" aria-label="Search">
+      <select id="f-goal" aria-label="Goal"><option value="">All goals</option></select>
+      <select id="f-progress" aria-label="UN progress"><option value="">Any UN progress</option></select>
+      <select id="f-priority" aria-label="Priority">
+        <option value="">Any priority</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+        <option value="unassessed">Unassessed</option>
+      </select>
+      <select id="f-status" aria-label="Status"><option value="">Any status</option></select>
+      <button id="reset" type="button">Reset</button>
+    </section>
+    <p id="count" class="count" aria-live="polite"></p>
+    <section id="cards" class="cards"></section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="https://github.com/harrythentrepreneur/open-problems">GitHub repository</a> ·
+      <a href="https://github.com/harrythentrepreneur/open-problems/blob/main/CONTRIBUTING.md">How to contribute</a> ·
+      <a href="https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">Good first issues</a>
+    </p>
+    <p class="small">Independent community project, not affiliated with or endorsed by the United Nations.
+      Target text from the <a href="https://unstats.un.org/sdgs/">UN SDG Global Database</a>; UN progress from
+      <a href="https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf"><i>The Sustainable Development Goals Report 2026</i></a>.
+      Plain-language summaries are community-written. <span id="retrieved"></span></p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
