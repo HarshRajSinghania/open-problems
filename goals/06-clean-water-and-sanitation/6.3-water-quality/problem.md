@@ -135,3 +135,5 @@ Working hypothesis (to be tested with a problem owner):
 - [Add a task](https://github.com/harrythentrepreneur/open-problems/issues/new?template=02-add-a-task.yml&title=%5B6.3%20)
 - Notes and sources go in [research/](research/); code goes in [solution/](solution/).
 <!-- UN:END tasks -->
+
+Main tracking issue: [#1 \[6.3 Water quality\] Main tracking issue](https://github.com/harrythentrepreneur/open-problems/issues/1), with sub-issues #2-#8.
