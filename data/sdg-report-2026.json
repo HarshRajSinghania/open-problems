@@ -1,0 +1,849 @@
+{
+  "source": "https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf",
+  "title": "The Sustainable Development Goals Report 2026",
+  "publisher": "United Nations, Department of Economic and Social Affairs",
+  "note": "Page numbers are the printed page numbers. Key messages are quoted verbatim. Target statuses come from the 'SDG progress by target' chart (pp.44-45); see the report's Progress Chart 2026 technical note for the method.",
+  "progress_chart_pages": [
+    44,
+    45
+  ],
+  "progress_legend": {
+    "on-track": "On track or target met",
+    "moderate": "Moderate progress, but acceleration needed",
+    "marginal": "Marginal progress, and significant acceleration needed",
+    "stagnation": "Stagnation",
+    "regression": "Regression",
+    "insufficient-data": "Insufficient data"
+  },
+  "goals": {
+    "1": {
+      "page": 8,
+      "key_messages": [
+        "Progress towards eradicating extreme poverty has stalled. The global extreme poverty rate stands at 10 per cent in 2026, only three percentage points below 2015 averages. At the current trajectory, about 9 per cent of the world’s population will still be living in extreme poverty in 2030, four in five of them in sub-Saharan Africa or in fragile and conflict-affected countries.",
+        "Social protection coverage has reached a major milestone but remains deeply uneven. For the first time, more than half the global population was covered by at least one social protection benefit in 2023. Yet 3.8 billion people remain unprotected, and coverage varies starkly by group: from 79.6 per cent for older persons to just 16.7 per cent for the unemployed.",
+        "Development aid focused on reducing poverty fell sharply, erasing a decade of progress. Official development assistance (ODA) grants targeting poverty reduction fell 8.7 per cent between 2023 and 2024, returning to 2015 levels.",
+        "Progress towards ending poverty will require targeted investment towards those living in persistent poverty. Both individual countries and the global community must commit to expanding inclusive economic opportunities, strengthening social protection systems and tackling the forces that continue to drive people into poverty in the first place, including inequality, climate shocks, conflict and rising living costs."
+      ]
+    },
+    "2": {
+      "page": 10,
+      "key_messages": [
+        "New 2025 estimates confirm a sustained, gradual decline in hunger and food insecurity for several consecutive years, but the 2026 conflict in the Middle East, escalating weather extremes and reductions in ODA and humanitarian funding, are threatening to undermine progress towards zero hunger.",
+        "Child nutrition is improving, but progress is slow in some regions. Globally, the number of stunted and wasted children under age 5 declined by 30.2 million and 8.1 million, respectively, between 2012 and 2024. However, nutritional improvement has not kept pace with rapid under-5 population growth in some regions, limiting overall gains and underscoring the need to scale up nutrition interventions.",
+        "Progress towards productive and sustainable agriculture remains moderate. The trend score over 2015–2024 showed modest improvement, reaching 4.0 out of 5, but the current status score of 3.3 suggests the world is not moving fast enough to meet the 2030 target. Agricultural productivity and employment conditions remain the key challenges.",
+        "Accelerating progress requires investing in resilient, climate-smart food systems – pairing social protection and nutrition programmes that shield the most vulnerable from shocks with measures for smallholder farmers on productivity, climate-adaptation and decent work."
+      ]
+    },
+    "3": {
+      "page": 12,
+      "key_messages": [
+        "Major gains in maternal, child and reproductive health are saving millions, but targets remain out of reach for many. Maternal mortality, under-5 deaths and adolescent birth rates are all declining, supported by expanding access to contraception and skilled birth attendance. Yet maternal mortality still stands at nearly three times the SDG target, and progress has been deeply uneven, with fragile and conflict-affected settings hardest hit.",
+        "Efforts against communicable diseases and other major health risks are delivering results. HIV infections and AIDS-related deaths have fallen over 30 per cent since 2015, tuberculosis (TB) deaths are declining after a pandemic-driven spike, tobacco and alcohol use are easing, and 780 million fewer people require treatment for neglected tropical diseases. Immunization is slowly recovering from disruptions due to COVID-19, though millions of children remain unvaccinated.",
+        "Funding cuts are putting decades of global health progress at risk. Official development assistance has fallen to 2015 levels, with a further decline projected for 2025. Low- and lower-middle-income countries are already facing disruptions to health services and rising out-of-pocket costs – putting at risk both the vulnerable populations who depend on these services and the systems that protect the world from future health crises.",
+        "Keeping global health goals on track requires stronger primary healthcare, expanded prevention and immunization, and international financing directed at the countries furthest behind."
+      ]
+    },
+    "4": {
+      "page": 16,
+      "key_messages": [
+        "More children are completing school, but access and learning outcomes lag behind. Global completion rates have risen across all levels of education since 2015, yet 273 million children and young people remain out of school and proficiency levels in reading and mathematics are alarmingly low.",
+        "Technological advancement is outpacing the digital skills needed to navigate it. Internet access is expanding rapidly, but many people still lack essential competencies in areas like online safety and digital content creation, limiting their ability to participate fully in an increasingly digital world.",
+        "School infrastructure is improving, but disparities by gender, wealth and location remain wide. Poorer, rural and marginalized populations face persistent disadvantages, and many schools – particularly in LDCs – still lack electricity, sanitation, Internet access and disability-adapted infrastructure.",
+        "Ensuring every child has access to quality education will require stronger investments in equitable, resilient and inclusive education systems to address the structural crises of foundational learning, chronic underfunding and systemic inequality. That means stronger teacher training, prioritizing education budget, better infrastructure and digital skills for every learner, starting with the countries and the disadvantaged populations furthest behind."
+      ]
+    },
+    "5": {
+      "page": 18,
+      "key_messages": [
+        "Women’s leadership is advancing, but parity remains decades away. Women hold 27.4 per cent of parliamentary seats, 35.6 per cent of local government positions and 30.5 per cent of managerial jobs worldwide – all only slight improvements over 2015 levels.",
+        "Despite progress on gender-responsive budgeting and legal reforms, systemic barriers persist. More countries are adopting gender-responsive budgeting, but only one in four has a comprehensive system. Since 2019, 99 legal reforms have advanced women’s rights, but discriminatory laws and barriers to land ownership and secure tenure remain widespread.",
+        "Violence and harmful practices continue to undermine the rights and agency of millions of women and girls. Nearly one in three women has experienced violence in her lifetime, almost half of married or partnered women lack full bodily autonomy, nearly one in five girls still marries before the age of 18 and 230 million girls and women have undergone female genital mutilation (FGM). Regional successes, however, show that legal reforms and changing social norms can drive progress.",
+        "Achieving gender equality requires sustained investment in sexual and reproductive health, decisive action to remove discriminatory laws and end harmful practices, stronger women’s economic rights and gender-responsive financing, and a transformation of the social norms and institutions that continue to limit women’s and girls’ opportunities."
+      ]
+    },
+    "6": {
+      "page": 20,
+      "key_messages": [
+        "Billions gained access to safe drinking water, sanitation and hygiene, but progress was uneven. By 2024, 74 per cent of the world’s population had safely managed drinking water, 58 per cent had safely managed sanitation, and 80 per cent had basic hygiene services. Yet people in LDCs were two to three times more likely to lack these services.",
+        "Despite improvement in global water-use efficiency, water stress remains severe in several regions. Global water-use efficiency improved 24 per cent from 2015 to 2023, but 10 per cent of the global population live in countries with high or critical stress levels.",
+        "Water monitoring is expanding, but data gaps persist and monitoring gains have yet to drive operational change. Reporting on water quality grew from 72 countries in 2017 to 124 in 2023, yet data gaps persist in poorer regions. Over 90 per cent of countries sharing transboundary rivers, lakes and aquifers have now reported data on transboundary water cooperation.",
+        "Making safe and sustainable water and sanitation a reality for everyone will require stronger institutions, dedicated investment, improved monitoring and greater community participation, particularly as climate change impacts intensify."
+      ]
+    },
+    "7": {
+      "page": 22,
+      "key_messages": [
+        "More people than ever have access to electricity and clean cooking, even as sub-Saharan Africa is being left behind. From 2015 to 2024, global electricity access grew from 87 to 92 per cent, and access to clean cooking fuels and technologies rose by 11 percentage points to 75 per cent, reflecting strong momentum towards modern, clean energy. Accelerating access in sub-Saharan Africa is the key to further progress.",
+        "Renewable energy use is expanding, with heat and transport being the next frontier. Renewables reached 18 per cent of global energy use in 2023, with electricity leading at over 30 per cent. However, progress in heat and transport remains weak, requiring faster action.",
+        "Developing countries are outpacing wealthier nations on renewable capacity growth. Developing countries had a 13 per cent compound average annual growth rate in renewable capacity over the past five years, compared to 8 per cent in developed ones, reflecting growing policy support and technological innovation in emerging economies.",
+        "Targeted investment and policy action can close remaining energy gaps by 2030. Investment in distributed renewable energy for electricity and clean cooking, industrial efficiency improvements and expanded renewable heating and transport – supported by robust policy frameworks – can deliver modern energy access for all."
+      ]
+    },
+    "8": {
+      "page": 24,
+      "key_messages": [
+        "Geopolitical tensions are adding to an already sluggish global economy. Economic growth remains below pre-pandemic levels, with supply chain disruptions, energy price volatility and reduced trade flows currently weighing on the outlook. Labour productivity gains remain insufficient to boost real wages or reduce poverty.",
+        "Unemployment is historically low, but secure work remains out of reach for many. The global unemployment rate remained at 4.9 per cent in 2025. Yet informal employment remains widespread and largely unchanged since 2015. Meanwhile, one in five young people globally is not in employment, education or training (NEET).",
+        "Despite reductions in child labour, workers continue to experience a deterioration in the protection of their fundamental rights. Global child labour fell by more than 20 million since 2020, yet 138 million children remain affected. At the same time, national compliance with freedom of association and collective bargaining rights has deteriorated in most regions since 2015, weakening the protection of workers worldwide.",
+        "Creating opportunities for fair and secure employment – particularly for women, youth and vulnerable economies – will depend on closing digital and financial inclusion gaps, sustained investment in productivity and technology, greater formalization of employment, stronger social protection and firmer enforcement of labour rights."
+      ]
+    },
+    "9": {
+      "page": 26,
+      "key_messages": [
+        "Globally, manufacturing and trade remain resilient, but global disruptions are creating new risks. Global manufacturing grew by 2.7 per cent in 2025 and seaborne trade – which handles over 80 per cent of global merchandise trade – reached a record 24.1 billion metric tons in 2024. Yet rising trade tensions, tariffs and geopolitical instability are disrupting supply chains and driving up costs.",
+        "The world is investing more in innovation but not in the world’s poorest countries. Global research and development (R&D) expenditure rose from 1.71 to 1.92 per cent of GDP between 2015 and 2023, with a steadily growing research workforce. However, many developing regions still invest less than 1 per cent of GDP in R&D and lag far behind in research capacity.",
+        "Digital connectivity is expanding rapidly, but the digital divide remains wide. By 2025, 5G networks covered 55 per cent of the world’s population, and mobile broadband reached 96 per cent. Yet only 4 per cent of people in low-income countries have access to 5G.",
+        "Scaling investment in resilient infrastructure, sustainable industrialization and innovation – alongside stronger international support for R&D, finance and technology in developing countries – is essential to drive inclusive, sustainable industrial growth."
+      ]
+    },
+    "10": {
+      "page": 28,
+      "key_messages": [
+        "In most countries, the incomes of the poorest rose faster than the national average, but progress is uneven. Since 2015, 6 in 10 countries reduced the share of their population living below half the median income, though low-income countries were less likely to see that progress. Meanwhile, labour’s share of GDP fell between 2015 and 2025, potentially widening income inequality.",
+        "Discrimination remains widespread and undermeasured. Nearly one in five people reports experiencing discrimination in the past 12 months, with rates varying across groups and countries. Critical data gaps obscure the true scale, limiting effective policy responses and hindering progress.",
+        "Refugee numbers have more than doubled since 2015. As conflict has intensified globally, the share of the world’s population living as refugees reached 444 per 100,000 people by mid-2025 – more than double 2015 levels.",
+        "Reducing inequality requires closing income gaps, protecting labour and scaling development finance. Addressing these disparities demands redistributive policies, improving labour’s share of economic growth, targeting ODA and foreign investment to countries most in need and tackling the root causes of forced displacement."
+      ]
+    },
+    "11": {
+      "page": 30,
+      "key_messages": [
+        "Slums continue to grow amid a deepening affordable housing crisis. While the share of slum dwellers has fallen in some regions, the total number has surged to 1.16 billion worldwide (24.8 per cent of urban residents in 2024). Without accelerated investment, the slum population could exceed 1.2 billion by 2030.",
+        "Urban services are improving but not keeping pace with demand. Public transport access rose from 53.2 to 61.5 per cent between 2020 and 2025, yet most cities rely on low-capacity bus systems. Critical gaps remain in safety and reliability – especially in sub-Saharan Africa and fast-growing regions.",
+        "Cities are becoming more efficient, but public spaces are shrinking. For the first time in 25 years, urban land consumption and population growth rates are nearly in step – at 0.83 and 0.81 per cent, respectively, in 2020–2025. Yet only 17 per cent of urban land is allocated to public open spaces, far below the 30–45 per cent target, leaving fewer residents within reach of a park or green space.",
+        "Supporting sustainable urban development will require integrated, data-driven urban planning that expands affordable housing, sustainable transport and public spaces while curbing inefficient urban sprawl and ensuring more inclusive and resilient cities."
+      ]
+    },
+    "12": {
+      "page": 32,
+      "key_messages": [
+        "Sustainable consumption policies are advancing, but material use keeps rising. More countries than ever have adopted sustainable consumption and production frameworks, circular economy strategies and public procurement standards, yet global material use grew 25 per cent between 2015 and 2022.",
+        "Global waste streams are expanding at an unsustainable pace. Annual consumer food waste has surpassed 1.05 billion tons and, combined with food loss, accounts for up to 10 per cent of global greenhouse gas emissions. Meanwhile, electronic waste has surged to 65 million tons per year, with less than one quarter formally recycled.",
+        "Fossil fuel subsidies remain a structural barrier to sustainable consumption. Despite two consecutive years of decline from the 2022 peak, subsidies totalled $921 billion in 2024 – well above pre-pandemic levels. By artificially lowering the cost of carbon-intensive activities, they undermine market incentives for resource efficiency and divert public funds away from sustainable development priorities.",
+        "Improving consumption and production patterns will demand stronger data and monitoring systems and mainstreaming of sustainable approaches into national policies and investment decisions. Targeted international support to SIDS and LDCs will be essential to accelerating global progress."
+      ]
+    },
+    "13": {
+      "page": 34,
+      "key_messages": [
+        "Climate risks are escalating, and the window for action is narrowing. The 11-year stretch from 2015 to 2025 was the hottest on record, and greenhouse gas emissions continue an upward trend. While climate policies have helped constrain projected warming pathways, current commitments remain wholly insufficient to limit warming to the 1.5°C target.",
+        "Investments in disaster risk reduction and climate resilience are delivering results, but vulnerability continues to grow. Disaster-related mortality has fallen by nearly 65 per cent over the past decade, while national strategies have been adopted by almost three quarters of the world. Yet the number of people affected by disasters has more than doubled, and the world’s most vulnerable countries continue to bear a disproportionate burden.",
+        "Closing the climate gap requires more than commitments – it demands financing, as well as the tools and political will to act. Climate finance has exceeded the $100 billion goal for the third year, but much greater investment is needed. Stronger mitigation, scaled-up adaptation, sustained investment and unwavering political will are essential to protect hard-won development gains and support the countries and communities most vulnerable to climate change."
+      ]
+    },
+    "14": {
+      "page": 36,
+      "key_messages": [
+        "Historic advances in ocean governance are further strengthening the foundation for long-term ocean recovery, even as marine ecosystems face mounting pressure. The entry into force of the Agreement on Marine Biological Diversity of Areas beyond National Jurisdiction (BBNJ Agreement) and the World Trade Organization (WTO) Agreement on Fisheries Subsidies, together with global ocean protection surpassing 10 per cent coverage, mark major milestones for the conservation and sustainable use of the ocean. These milestones come at a critical time, as ocean heat content continues to reach record levels and ocean acidification intensifies, threatening marine ecosystems and undermining the ocean’s vital role as a carbon sink.",
+        "Responsible fisheries management is showing results as fish stocks stabilize. Global sustainable fish stock decline has slowed markedly since 2015, and regions with effective fisheries management continue to achieve sustainability rates well above the global average, showing that recovery is possible with targeted action.",
+        "Turning recent ocean conservation policy achievements into measurable recovery will require dedicated implementation, investment and universal participation. Expanding area-based conservation, strengthening fisheries management and increasing investment in marine research and observation systems are critical to protecting biodiversity and sustaining ocean resources for future generations."
+      ]
+    },
+    "15": {
+      "page": 38,
+      "key_messages": [
+        "Biodiversity governance is expanding, even as species loss continues. Catalysed by the Kunming-Montreal Global Biodiversity Framework, countries are strengthening laws and targets for biodiversity protection, with 155 countries establishing national biodiversity targets by 2025. Yet more than 48,600 species are facing extinction, and global extinction risk continues to worsen.",
+        "Forest loss has slowed but persists. Global progress in reducing deforestation and expanding sustainable forest management has eased global net forest loss, with over half of forests now under management plans and deforestation rates declining over the past decades. Yet forests continue to shrink overall, with 41 million hectares lost since 2015.",
+        "Protection of key biodiversity areas (KBA) has grown, but many sites remain unidentified. Average protection of KBAs has nearly doubled over the last 25 years, yet many countries may have identified only a portion of their KBAs, leaving critical sites potentially unprotected.",
+        "Closing the gaps in biodiversity protection, forest conservation and species preservation will require stronger governance, sustained investment and accelerated implementation, as well as stronger links between legislation and on-the-ground results."
+      ]
+    },
+    "16": {
+      "page": 40,
+      "key_messages": [
+        "Violence is declining, but progress remains uneven and too slow. The global homicide rate fell by 14 per cent between 2015 and 2024, and documented civilian conflict deaths dropped by 23 per cent in 2025. Yet civilian deaths remain persistently high, violence remains concentrated in a few regions and women and children continue to bear a heavy brunt.",
+        "Justice and human rights are expanding on paper but not in practice. Access-to-information laws are spreading, yet compliance remains inconsistent. Bribery rates are three times higher in low-income than high-income countries, and killings of human rights defenders have risen by 61 per cent from the previous decade, highlighting how the gap between legal frameworks and lived reality remains wide.",
+        "Inclusive governance remains out of reach. Women and young people continue to be underrepresented across parliaments, public service and the judiciary and, even where present, are largely excluded from the most influential decision-making roles.",
+        "Building peaceful, just and inclusive societies will require stronger rule of law, better protections for human rights defenders, serious action on corruption and more representative institutions that reflect the full diversity of the people they serve."
+      ]
+    },
+    "17": {
+      "page": 42,
+      "key_messages": [
+        "Development finance is being reshaped as official aid retreats. ODA fell by a record 23.1 per cent in 2025, returning to 2015 levels, with further declines expected. As aid contracts, other sources of finance will become increasingly important for supporting sustainable development.",
+        "Debt pressures remain severe, and foreign investment is bypassing the countries that need it most. External debt reached a record $8.9 trillion, debt-servicing costs hit historic highs and foreign direct investment shifted towards developed economies, leaving many LDCs behind.",
+        "Trade and digital connectivity continue to expand but not in the world’s most vulnerable countries. Developing economies now account for nearly half of global merchandise exports, and almost three quarters of the world’s population is online. Yet the story is different in LDCs, which hold less than 2 per cent of global exports and where two in three people are offline.",
+        "Revitalizing the global partnership needed to meet the 2030 targets will require reversing the decline in aid, addressing debt vulnerabilities, mobilizing investment toward the countries that need it most, closing digital divides and sustaining financing for the data and statistical systems that underpin sound policy."
+      ]
+    }
+  },
+  "targets": {
+    "1.1": {
+      "short_title": "International poverty",
+      "progress": "marginal"
+    },
+    "1.2": {
+      "short_title": "National poverty",
+      "progress": "marginal"
+    },
+    "1.3": {
+      "short_title": "Social protection",
+      "progress": "marginal"
+    },
+    "1.4": {
+      "short_title": "Access to basic services",
+      "progress": "moderate"
+    },
+    "1.5": {
+      "short_title": "Resilience to disasters",
+      "progress": "moderate"
+    },
+    "1.a": {
+      "short_title": "Government spending on essential services",
+      "progress": "regression"
+    },
+    "1.b": {
+      "short_title": "Poverty eradication policies",
+      "progress": "insufficient-data"
+    },
+    "2.1": {
+      "short_title": "Undernourishment and food security",
+      "progress": "regression"
+    },
+    "2.2": {
+      "short_title": "Malnutrition",
+      "progress": "stagnation"
+    },
+    "2.3": {
+      "short_title": "Small-scale food producers",
+      "progress": "insufficient-data"
+    },
+    "2.4": {
+      "short_title": "Productive and sustainable agriculture",
+      "progress": "moderate"
+    },
+    "2.5": {
+      "short_title": "Genetic resources for agriculture",
+      "progress": "marginal"
+    },
+    "2.a": {
+      "short_title": "Investment in agriculture",
+      "progress": "regression"
+    },
+    "2.b": {
+      "short_title": "Agricultural export subsidies",
+      "progress": "on-track"
+    },
+    "2.c": {
+      "short_title": "Food price anomalies",
+      "progress": "marginal"
+    },
+    "3.1": {
+      "short_title": "Maternal mortality",
+      "progress": "marginal"
+    },
+    "3.2": {
+      "short_title": "Child mortality",
+      "progress": "marginal"
+    },
+    "3.3": {
+      "short_title": "Communicable diseases",
+      "progress": "marginal"
+    },
+    "3.4": {
+      "short_title": "NCD and mental health",
+      "progress": "marginal"
+    },
+    "3.5": {
+      "short_title": "Substance abuse and treatment",
+      "progress": "marginal"
+    },
+    "3.6": {
+      "short_title": "Road traffic accidents",
+      "progress": "marginal"
+    },
+    "3.7": {
+      "short_title": "Sexual and reproductive health",
+      "progress": "marginal"
+    },
+    "3.8": {
+      "short_title": "Universal health coverage",
+      "progress": "marginal"
+    },
+    "3.9": {
+      "short_title": "Health impact of pollution",
+      "progress": "on-track"
+    },
+    "3.a": {
+      "short_title": "Tobacco control",
+      "progress": "moderate"
+    },
+    "3.b": {
+      "short_title": "Immunization coverage",
+      "progress": "moderate"
+    },
+    "3.c": {
+      "short_title": "Health workforce",
+      "progress": "marginal"
+    },
+    "3.d": {
+      "short_title": "Management of health risks",
+      "progress": "marginal"
+    },
+    "4.1": {
+      "short_title": "Effective learning outcomes",
+      "progress": "stagnation"
+    },
+    "4.2": {
+      "short_title": "Early childhood education",
+      "progress": "stagnation"
+    },
+    "4.3": {
+      "short_title": "TVET and tertiary education",
+      "progress": "stagnation"
+    },
+    "4.4": {
+      "short_title": "Skills for employment",
+      "progress": "insufficient-data"
+    },
+    "4.5": {
+      "short_title": "Equal access to education",
+      "progress": "moderate"
+    },
+    "4.6": {
+      "short_title": "Adult literacy and numeracy",
+      "progress": "stagnation"
+    },
+    "4.7": {
+      "short_title": "Sustainable development education",
+      "progress": "insufficient-data"
+    },
+    "4.a": {
+      "short_title": "Education facilities",
+      "progress": "marginal"
+    },
+    "4.b": {
+      "short_title": "ODA for scholarships",
+      "progress": "moderate"
+    },
+    "4.c": {
+      "short_title": "Qualified teachers",
+      "progress": "stagnation"
+    },
+    "5.1": {
+      "short_title": "Legal frameworks on gender equality",
+      "progress": "marginal"
+    },
+    "5.2": {
+      "short_title": "Violence against women and girls",
+      "progress": "insufficient-data"
+    },
+    "5.3": {
+      "short_title": "Child marriage",
+      "progress": "marginal"
+    },
+    "5.4": {
+      "short_title": "Unpaid care and domestic work",
+      "progress": "insufficient-data"
+    },
+    "5.5": {
+      "short_title": "Women in leadership",
+      "progress": "marginal"
+    },
+    "5.6": {
+      "short_title": "Reproductive health access and rights",
+      "progress": "insufficient-data"
+    },
+    "5.a": {
+      "short_title": "Equal economic rights for women",
+      "progress": "insufficient-data"
+    },
+    "5.b": {
+      "short_title": "Technology for women empowerment",
+      "progress": "marginal"
+    },
+    "5.c": {
+      "short_title": "Gender-responsive budgeting",
+      "progress": "marginal"
+    },
+    "6.1": {
+      "short_title": "Safe drinking water",
+      "progress": "marginal"
+    },
+    "6.2": {
+      "short_title": "Access to sanitation and hygiene",
+      "progress": "moderate"
+    },
+    "6.3": {
+      "short_title": "Water quality",
+      "progress": "stagnation"
+    },
+    "6.4": {
+      "short_title": "Water-use efficiency",
+      "progress": "marginal"
+    },
+    "6.5": {
+      "short_title": "Transboundary water cooperation",
+      "progress": "stagnation"
+    },
+    "6.6": {
+      "short_title": "Water-related ecosystems",
+      "progress": "stagnation"
+    },
+    "6.a": {
+      "short_title": "International cooperation on water and sanitation",
+      "progress": "insufficient-data"
+    },
+    "6.b": {
+      "short_title": "Participatory water and sanitation management",
+      "progress": "insufficient-data"
+    },
+    "7.1": {
+      "short_title": "Access to energy services",
+      "progress": "moderate"
+    },
+    "7.2": {
+      "short_title": "Share of renewable energy",
+      "progress": "moderate"
+    },
+    "7.3": {
+      "short_title": "Energy efficiency",
+      "progress": "moderate"
+    },
+    "7.a": {
+      "short_title": "International cooperation on energy",
+      "progress": "on-track"
+    },
+    "7.b": {
+      "short_title": "Investing in energy infrastructure",
+      "progress": "on-track"
+    },
+    "8.1": {
+      "short_title": "Economic growth",
+      "progress": "marginal"
+    },
+    "8.2": {
+      "short_title": "Economic productivity",
+      "progress": "regression"
+    },
+    "8.3": {
+      "short_title": "Formalization of SMEs",
+      "progress": "regression"
+    },
+    "8.4": {
+      "short_title": "Material resource efficiency",
+      "progress": "stagnation"
+    },
+    "8.5": {
+      "short_title": "Full employment and decent work",
+      "progress": "marginal"
+    },
+    "8.6": {
+      "short_title": "Youth NEET",
+      "progress": "marginal"
+    },
+    "8.7": {
+      "short_title": "Child and forced labour",
+      "progress": "marginal"
+    },
+    "8.8": {
+      "short_title": "Labour rights and safe working environment",
+      "progress": "regression"
+    },
+    "8.9": {
+      "short_title": "Sustainable tourism",
+      "progress": "marginal"
+    },
+    "8.10": {
+      "short_title": "Access to financial services",
+      "progress": "moderate"
+    },
+    "8.a": {
+      "short_title": "Aid for Trade",
+      "progress": "marginal"
+    },
+    "8.b": {
+      "short_title": "Strategy for youth employment",
+      "progress": "insufficient-data"
+    },
+    "9.1": {
+      "short_title": "Infrastructure development",
+      "progress": "moderate"
+    },
+    "9.2": {
+      "short_title": "Sustainable/inclusive industrialization",
+      "progress": "regression"
+    },
+    "9.3": {
+      "short_title": "Small-scale industries’ access to finance",
+      "progress": "insufficient-data"
+    },
+    "9.4": {
+      "short_title": "Sustainable and clean industries",
+      "progress": "moderate"
+    },
+    "9.5": {
+      "short_title": "Research and development",
+      "progress": "moderate"
+    },
+    "9.a": {
+      "short_title": "ODA for infrastructure",
+      "progress": "moderate"
+    },
+    "9.b": {
+      "short_title": "Domestic technology development",
+      "progress": "marginal"
+    },
+    "9.c": {
+      "short_title": "Access to ICT and the Internet",
+      "progress": "on-track"
+    },
+    "10.1": {
+      "short_title": "Income growth of bottom 40 per cent",
+      "progress": "moderate"
+    },
+    "10.2": {
+      "short_title": "Income distribution",
+      "progress": "moderate"
+    },
+    "10.3": {
+      "short_title": "Eliminate discrimination",
+      "progress": "regression"
+    },
+    "10.4": {
+      "short_title": "Fiscal and social protection policies",
+      "progress": "regression"
+    },
+    "10.5": {
+      "short_title": "Regulation of financial markets",
+      "progress": "marginal"
+    },
+    "10.6": {
+      "short_title": "Inclusive global governance",
+      "progress": "stagnation"
+    },
+    "10.7": {
+      "short_title": "Safe migration and mobility",
+      "progress": "stagnation"
+    },
+    "10.a": {
+      "short_title": "Special and differential treatment (WTO)",
+      "progress": "regression"
+    },
+    "10.b": {
+      "short_title": "Resource flows for development",
+      "progress": "on-track"
+    },
+    "10.c": {
+      "short_title": "Remittance costs",
+      "progress": "marginal"
+    },
+    "11.1": {
+      "short_title": "Housing and basic services",
+      "progress": "stagnation"
+    },
+    "11.2": {
+      "short_title": "Public transport systems",
+      "progress": "insufficient-data"
+    },
+    "11.3": {
+      "short_title": "Sustainable urbanization",
+      "progress": "insufficient-data"
+    },
+    "11.4": {
+      "short_title": "Cultural and natural heritage",
+      "progress": "insufficient-data"
+    },
+    "11.5": {
+      "short_title": "Human and economic losses to disasters",
+      "progress": "marginal"
+    },
+    "11.6": {
+      "short_title": "Urban air quality and waste management",
+      "progress": "on-track"
+    },
+    "11.7": {
+      "short_title": "Urban green and public spaces",
+      "progress": "insufficient-data"
+    },
+    "11.a": {
+      "short_title": "Urban planning policies",
+      "progress": "on-track"
+    },
+    "11.b": {
+      "short_title": "Disaster risk management policies",
+      "progress": "on-track"
+    },
+    "11.c": {
+      "short_title": "Sustainable and resilient buildings",
+      "progress": "insufficient-data"
+    },
+    "12.1": {
+      "short_title": "Programmes on sustainable consumption and production",
+      "progress": "on-track"
+    },
+    "12.2": {
+      "short_title": "Sustainable use of natural resources",
+      "progress": "stagnation"
+    },
+    "12.3": {
+      "short_title": "Food waste and losses",
+      "progress": "regression"
+    },
+    "12.4": {
+      "short_title": "Managing chemicals and wastes",
+      "progress": "marginal"
+    },
+    "12.5": {
+      "short_title": "Reduction in waste generation",
+      "progress": "regression"
+    },
+    "12.6": {
+      "short_title": "Corporate sustainable practices",
+      "progress": "on-track"
+    },
+    "12.7": {
+      "short_title": "Public procurement practices",
+      "progress": "on-track"
+    },
+    "12.8": {
+      "short_title": "Sustainable development awareness",
+      "progress": "insufficient-data"
+    },
+    "12.a": {
+      "short_title": "Support for R&D capacity for sustainable development",
+      "progress": "on-track"
+    },
+    "12.b": {
+      "short_title": "Sustainable tourism monitoring",
+      "progress": "regression"
+    },
+    "12.c": {
+      "short_title": "Fossil fuel subsidies",
+      "progress": "regression"
+    },
+    "13.1": {
+      "short_title": "Resilience and adaptive capacity",
+      "progress": "on-track"
+    },
+    "13.2": {
+      "short_title": "Climate change policies",
+      "progress": "marginal"
+    },
+    "13.3": {
+      "short_title": "Climate change awareness",
+      "progress": "insufficient-data"
+    },
+    "13.a": {
+      "short_title": "UNFCCC commitments",
+      "progress": "on-track"
+    },
+    "13.b": {
+      "short_title": "Climate change planning and management",
+      "progress": "insufficient-data"
+    },
+    "14.1": {
+      "short_title": "Marine pollution",
+      "progress": "marginal"
+    },
+    "14.2": {
+      "short_title": "Marine and coastal ecosystems",
+      "progress": "marginal"
+    },
+    "14.3": {
+      "short_title": "Ocean acidification",
+      "progress": "regression"
+    },
+    "14.4": {
+      "short_title": "Sustainable fishing",
+      "progress": "regression"
+    },
+    "14.5": {
+      "short_title": "Conservation of coastal and marine areas",
+      "progress": "marginal"
+    },
+    "14.6": {
+      "short_title": "Combatting illegal, unreported and unregulated fishing",
+      "progress": "moderate"
+    },
+    "14.7": {
+      "short_title": "Marine resources for SIDS and LDCs",
+      "progress": "insufficient-data"
+    },
+    "14.a": {
+      "short_title": "Research capacity and marine technology",
+      "progress": "regression"
+    },
+    "14.b": {
+      "short_title": "Small-scale artisanal fishing",
+      "progress": "moderate"
+    },
+    "14.c": {
+      "short_title": "Implementing UNCLOS",
+      "progress": "moderate"
+    },
+    "15.1": {
+      "short_title": "Terrestrial and freshwater ecosystems",
+      "progress": "stagnation"
+    },
+    "15.2": {
+      "short_title": "Sustainable forests management",
+      "progress": "moderate"
+    },
+    "15.3": {
+      "short_title": "Desertification and land degradation",
+      "progress": "regression"
+    },
+    "15.4": {
+      "short_title": "Conservation of mountain ecosystems",
+      "progress": "stagnation"
+    },
+    "15.5": {
+      "short_title": "Loss of biodiversity",
+      "progress": "regression"
+    },
+    "15.6": {
+      "short_title": "Utilization of genetic resources",
+      "progress": "on-track"
+    },
+    "15.7": {
+      "short_title": "Protected species trafficking",
+      "progress": "insufficient-data"
+    },
+    "15.8": {
+      "short_title": "Invasive alien species",
+      "progress": "on-track"
+    },
+    "15.9": {
+      "short_title": "Biodiversity in national and local planning",
+      "progress": "on-track"
+    },
+    "15.a": {
+      "short_title": "Resources for biodiversity and ecosystems",
+      "progress": "marginal"
+    },
+    "15.b": {
+      "short_title": "Resources for forest management",
+      "progress": "marginal"
+    },
+    "15.c": {
+      "short_title": "Protected species trafficking (global)",
+      "progress": "insufficient-data"
+    },
+    "16.1": {
+      "short_title": "Reduction of violence and related deaths",
+      "progress": "moderate"
+    },
+    "16.2": {
+      "short_title": "Human trafficking",
+      "progress": "insufficient-data"
+    },
+    "16.3": {
+      "short_title": "Justice for all",
+      "progress": "stagnation"
+    },
+    "16.4": {
+      "short_title": "Illicit financial and arms flows",
+      "progress": "insufficient-data"
+    },
+    "16.5": {
+      "short_title": "Corruption and bribery",
+      "progress": "moderate"
+    },
+    "16.6": {
+      "short_title": "Effective institutions",
+      "progress": "insufficient-data"
+    },
+    "16.7": {
+      "short_title": "Inclusive decision-making",
+      "progress": "stagnation"
+    },
+    "16.8": {
+      "short_title": "Inclusive global governance",
+      "progress": "stagnation"
+    },
+    "16.9": {
+      "short_title": "Legal identity",
+      "progress": "moderate"
+    },
+    "16.10": {
+      "short_title": "Public access to information",
+      "progress": "stagnation"
+    },
+    "16.a": {
+      "short_title": "National human rights institutions",
+      "progress": "marginal"
+    },
+    "16.b": {
+      "short_title": "Non-discriminatory laws",
+      "progress": "regression"
+    },
+    "17.1": {
+      "short_title": "Tax and other revenue collection",
+      "progress": "stagnation"
+    },
+    "17.2": {
+      "short_title": "ODA commitment by developed countries",
+      "progress": "stagnation"
+    },
+    "17.3": {
+      "short_title": "Additional financial resources for development",
+      "progress": "marginal"
+    },
+    "17.4": {
+      "short_title": "Debt sustainability",
+      "progress": "insufficient-data"
+    },
+    "17.5": {
+      "short_title": "Investment promotion for LDCs",
+      "progress": "moderate"
+    },
+    "17.6": {
+      "short_title": "Access to technology",
+      "progress": "on-track"
+    },
+    "17.7": {
+      "short_title": "Transfer of technologies",
+      "progress": "moderate"
+    },
+    "17.8": {
+      "short_title": "Use of the Internet",
+      "progress": "on-track"
+    },
+    "17.9": {
+      "short_title": "Capacity-building for SDGs",
+      "progress": "on-track"
+    },
+    "17.10": {
+      "short_title": "Multilateral trading system (WTO)",
+      "progress": "moderate"
+    },
+    "17.11": {
+      "short_title": "Exports of developing countries",
+      "progress": "marginal"
+    },
+    "17.12": {
+      "short_title": "Duty-free market access for LDCs",
+      "progress": "stagnation"
+    },
+    "17.13": {
+      "short_title": "Global macroeconomic stability",
+      "progress": "stagnation"
+    },
+    "17.14": {
+      "short_title": "Policy coherence for sustainable development",
+      "progress": "insufficient-data"
+    },
+    "17.15": {
+      "short_title": "Respect country’s policy space",
+      "progress": "regression"
+    },
+    "17.16": {
+      "short_title": "Global partnership for sustainable development",
+      "progress": "insufficient-data"
+    },
+    "17.17": {
+      "short_title": "Partnerships (public, private, CSO)",
+      "progress": "insufficient-data"
+    },
+    "17.18": {
+      "short_title": "National statistics availability",
+      "progress": "marginal"
+    },
+    "17.19": {
+      "short_title": "Statistical capacity",
+      "progress": "moderate"
+    }
+  }
+}

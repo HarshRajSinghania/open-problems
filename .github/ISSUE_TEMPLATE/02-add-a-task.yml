@@ -1,0 +1,60 @@
+name: Add a task
+description: Add a concrete, doable task for a target (research, data, design, code or writing).
+title: "[<target> <short title>] "
+labels: ["status: needs review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A good task can be finished by one person in one to a few days.
+        Title format: `[6.3 Water quality] Find open datasets for 6.3.2`.
+  - type: input
+    id: target
+    attributes:
+      label: Target
+      placeholder: "6.3"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of work
+      options:
+        - research
+        - data
+        - design
+        - code
+        - writing
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Size
+      options:
+        - easy (a few hours, no special skills)
+        - medium (a day or two)
+        - hard (several days or specialist skills)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs doing
+      description: The task, and why it matters for the target.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: A checklist that tells someone they have finished.
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Useful links
+      description: problem.md, sources, related issues.

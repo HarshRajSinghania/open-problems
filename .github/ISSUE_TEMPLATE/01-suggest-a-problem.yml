@@ -1,0 +1,53 @@
+name: Suggest a problem
+description: Propose a problem, or a sharper version of a UN target, for the map.
+title: "[Problem] "
+labels: ["status: needs review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! All 169 UN targets are already in `goals/`. Use this form to
+        suggest a **specific problem** inside a target (for example "rivers
+        in X have no early pollution warning" inside 6.3), or to flag
+        something missing. Please do not include personal data.
+  - type: input
+    id: target
+    attributes:
+      label: UN target
+      description: The closest target code, e.g. 6.3. See the goal tables in the README.
+      placeholder: "6.3"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What is going wrong, for whom, and where? Two or three sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who has this problem?
+      description: People or organisations affected, and anyone who might act as a problem owner.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links to reports, data or articles (with page numbers where possible).
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: What already exists?
+      description: Tools or programmes that already address this, and their gaps.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and the target's problem.md.
+          required: true
+        - label: This contains no personal data.
+          required: true

@@ -1,0 +1,37 @@
+name: Report a bug
+description: Something in the repo is broken - a script, a check, a link or wrong data.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where?
+      description: File path, link or command.
+      placeholder: "tools/check_problems.py, or goals/06-clean-water-and-sanitation/6.3-water-quality/problem.md"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Commands you ran and the output (paste text, not screenshots, if you can).
+      render: shell
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "macOS 15, Python 3.12"
+  - type: markdown
+    attributes:
+      value: |
+        **Wrong UN data?** Tell us the code (e.g. 6.3.1) and link the UN
+        source. **Security or safety issue?** Do not post it here; contact a
+        maintainer privately.

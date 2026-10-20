@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or share an idea
+    url: https://github.com/harrythentrepreneur/open-problems/discussions
+    about: Questions, ideas and introductions go in Discussions.
+  - name: How to contribute
+    url: https://github.com/harrythentrepreneur/open-problems/blob/main/CONTRIBUTING.md
+    about: Read this before picking a task.

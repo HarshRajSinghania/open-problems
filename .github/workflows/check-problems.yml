@@ -1,0 +1,37 @@
+name: Check problems
+
+on:
+  pull_request:
+    paths:
+      - "goals/**"
+      - "tools/**"
+      - "data/**"
+      - "README.md"
+      - ".github/workflows/check-problems.yml"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate problem.md front matter and sections
+        run: python tools/check_problems.py
+      - name: Check README tables are up to date
+        run: python tools/build_index.py --check
+      - name: Check UN-generated blocks are up to date
+        run: |
+          python tools/import_un_sdgs.py
+          git diff --exit-code || {
+            echo "::error::Generated files changed. Run python tools/import_un_sdgs.py and commit.";
+            exit 1;
+          }
