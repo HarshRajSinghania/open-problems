@@ -62,6 +62,21 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.b"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [3.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf) | Proportion of the target population who received 3 doses of diphtheria-tetanus-pertussis (DTP3) vaccine (%) [`SH_ACS_DTP3`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_ACS_DTP3&areaCode=1) | **85** (2024) | 72 (2000) | Percentage |
+| [3.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf) | Proportion of the target population who received measles-containing-vaccine second-dose (MCV2) (%) [`SH_ACS_MCV2`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_ACS_MCV2&areaCode=1) | **76** (2024) | 17 (2000) | Percentage |
+| [3.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf) | Proportion of the target population who received a 3rd dose of pneumococcal conjugate (PCV3) vaccine (%) [`SH_ACS_PCV3`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_ACS_PCV3&areaCode=1) | **67** (2024) | 4 (2008) | Percentage |
+| [3.b.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-02.pdf) | Total official development assistance to medical research and basic health sectors, net disbursement, by recipient countries (millions of constant 2024 United States dollars) [`DC_TOF_HLTHNT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=DC_TOF_HLTHNT&areaCode=1) | _No World total_ (151 countries or areas report data) | – | – |
+| [3.b.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-02.pdf) | Total official development assistance to medical research and basic health sectors, gross disbursement, by recipient countries (millions of constant 2024 United States dollars) [`DC_TOF_HLTHL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=DC_TOF_HLTHL&areaCode=1) | _No World total_ (156 countries or areas report data) | – | – |
+| [3.b.3](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-03.pdf) | Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis (%) [`SH_HLF_EMED`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_HLF_EMED&areaCode=1) | _No World total_ (27 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

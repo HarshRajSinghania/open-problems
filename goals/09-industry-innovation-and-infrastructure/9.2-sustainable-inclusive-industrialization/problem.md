@@ -56,6 +56,20 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=9&Target=9.2"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [9.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-01.pdf) | Manufacturing value added per capita (constant 2020 United States dollars) (Activity: Manufacturing) [`NV_IND_MANFPC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=NV_IND_MANFPC&areaCode=1) | **1,956.3** (2025) | 1,180.07 (2000) | Constant USD |
+| [9.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-01.pdf) | Manufacturing value added (constant 2020 United States dollars) as a proportion of GDP (%) (Activity: Manufacturing) [`NV_IND_MANF`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=NV_IND_MANF&areaCode=1) | **15.59** (2025) | 14.26 (2000) | Percentage |
+| [9.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-01.pdf) | Manufacturing value added (current United States dollars) as a proportion of GDP (%) (Activity: Manufacturing) [`NV_IND_MANF_CD`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=NV_IND_MANF_CD&areaCode=1) | **14.97** (2024) | 17.33 (2000) | Percentage |
+| [9.2.2](https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-02.pdf) | Manufacturing employment as a proportion of total employment - 13th ICLS (%) (Activity: Manufacturing) [`SL_TLF_MANF`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SL_TLF_MANF&areaCode=1) | **13.66** (2025) | 15.06 (2000) | Percentage |
+| [9.2.2](https://unstats.un.org/sdgs/metadata/files/Metadata-09-02-02.pdf) | Manufacturing employment as a proportion of total employment - 19th ICLS(%) [`SL_TLF_MANF_19ICLS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SL_TLF_MANF_19ICLS&areaCode=1) | _No World total_ (119 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

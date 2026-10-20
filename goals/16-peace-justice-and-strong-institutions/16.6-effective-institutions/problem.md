@@ -56,6 +56,19 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.6"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [16.6.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-01.pdf) | Primary government expenditures as a proportion of original approved budget (%) [`GF_XPD_GBPC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=GF_XPD_GBPC&areaCode=1) | _No World total_ (174 countries or areas report data) | – | – |
+| [16.6.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-02.pdf) | Proportion of population who say that overall they are satisfied with the quality of healthcare services (%) [`SP_PSR_OSATIS_HLTH`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_PSR_OSATIS_HLTH&areaCode=1) | **56.23** (2025) | – | Percentage |
+| [16.6.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-02.pdf) | Proportion of population satisfied with their last experience of public services, healthcare services (%) [`SP_PSR_SATIS_HLTH`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_PSR_SATIS_HLTH&areaCode=1) | _No World total_ (10 countries or areas report data) | – | – |
+| [16.6.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-06-02.pdf) | Proportion of population satisfied with their last experience of public services, primary education services (%) [`SP_PSR_SATIS_PRM`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_PSR_SATIS_PRM&areaCode=1) | _No World total_ (7 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

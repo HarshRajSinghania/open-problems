@@ -52,6 +52,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=15&Target=15.8"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [15.8.1](https://unstats.un.org/sdgs/metadata/files/Metadata-15-08-01.pdf) | Proportion of countries with National Biodiversity Strategy and Action Plan (NBSAP) targets alignment to Aichi Biodiversity target 9 set out in the Strategic Plan for Biodiversity 2011-2020 (%) [`ER_IAS_NBSAPP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_IAS_NBSAPP&areaCode=1) | **71.28** (2025) | 74.36 (2016) | Percentage |
+| [15.8.1](https://unstats.un.org/sdgs/metadata/files/Metadata-15-08-01.pdf) | Proportion of countries with allocation from the national budget to manage the threat of invasive alien species (%) [`ER_IAS_NATBUDP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_IAS_NATBUDP&areaCode=1) | **67.31** (2025) | – | Percentage |
+| [15.8.1](https://unstats.un.org/sdgs/metadata/files/Metadata-15-08-01.pdf) | Proportion of recipient countries of global funding with access to any funding from global financial mechanisms for projects related to invasive alien species  management (%) [`ER_IAS_GLOFUNP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_IAS_GLOFUNP&areaCode=1) | **25** (2025) | – | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

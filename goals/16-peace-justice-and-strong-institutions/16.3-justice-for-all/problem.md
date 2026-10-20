@@ -62,6 +62,20 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.3"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [16.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf) | Police reporting rate for physical assault in the previous 12 months, by sex (%) [`VC_PRR_PHYV`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_PRR_PHYV&areaCode=1) | _No World total_ (71 countries or areas report data) | – | – |
+| [16.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf) | Police reporting rate for sexual assault in the previous 12 months, by sex (%) [`VC_PRR_SEXV`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_PRR_SEXV&areaCode=1) | _No World total_ (27 countries or areas report data) | – | – |
+| [16.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-01.pdf) | Police reporting rate for robbery in the previous 12 months, by sex (%) [`VC_PRR_ROBB`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_PRR_ROBB&areaCode=1) | _No World total_ (80 countries or areas report data) | – | – |
+| [16.3.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-02.pdf) | Unsentenced detainees as a proportion of overall prison population (%) [`VC_PRS_UNSNT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_PRS_UNSNT&areaCode=1) | **30.88** (2024) | 29.93 (2003) | Percentage |
+| [16.3.3](https://unstats.un.org/sdgs/metadata/files/Metadata-16-03-03.pdf) | Proportion of the population who have experienced a dispute in the past two years who accessed a formal or informal dispute resolution mechanism (%) [`SP_DISP_RESOL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_DISP_RESOL&areaCode=1) | _No World total_ (11 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

@@ -56,6 +56,17 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.5"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [16.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-05-01.pdf) | Prevalence rate of bribery, by sex (%) [`IU_COR_BRIB`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IU_COR_BRIB&areaCode=1) | _No World total_ (142 countries or areas report data) | – | – |
+| [16.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-05-02.pdf) | Bribery incidence (% of firms experiencing at least one bribe payment request) [`IC_FRM_BRIB`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IC_FRM_BRIB&areaCode=1) | **11.5** (2026) | – | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

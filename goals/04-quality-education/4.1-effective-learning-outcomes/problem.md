@@ -58,6 +58,17 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.1"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [4.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-01.pdf) | Proportion of children and young people achieving a minimum proficiency level in reading and mathematics (%) (Education level: Primary; Type of skill: Skill: Minimum proficiency in reading) [`SE_TOT_PRFL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_TOT_PRFL&areaCode=1) | **58.09** (2019) | 61.21 (2000) | Percentage |
+| [4.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-02.pdf) | Completion rate, by sex, location, wealth quintile and education level (%) (Education level: Primary) [`SE_TOT_CPLR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_TOT_CPLR&areaCode=1) | **88** (2024) | 77.3 (2000) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

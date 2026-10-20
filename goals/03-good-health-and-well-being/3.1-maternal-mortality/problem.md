@@ -58,6 +58,17 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.1"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [3.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-01.pdf) | Maternal mortality ratio (Sex: Female) [`SH_STA_MORT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_MORT&areaCode=1) | **197.31** (2023) | 327.63 (2000) | Per 100,000 live births |
+| [3.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-01-02.pdf) | Proportion of births attended by skilled health personnel (%) [`SH_STA_BRTC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_BRTC&areaCode=1) | **87.2** (2025) | 60.7 (2000) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

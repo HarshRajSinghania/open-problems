@@ -56,6 +56,21 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=5&Target=5.6"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [5.6.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-01.pdf) | Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care (% of women aged 15-49 years) (Age: 15 to 49 years old; Sex: Female) [`SH_FPL_INFM`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_FPL_INFM&areaCode=1) | **56.3** (2025) | – | Percentage |
+| [5.6.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-01.pdf) | Proportion of women who make their own informed decisions regarding sexual relations (% of women aged 15-49 years) (Age: 15 to 49 years old; Sex: Female) [`SH_FPL_INFMSR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_FPL_INFMSR&areaCode=1) | **75.4** (2025) | – | Percentage |
+| [5.6.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-01.pdf) | Proportion of women who make their own informed decisions regarding contraceptive use (% of women aged 15-49 years) (Age: 15 to 49 years old; Sex: Female) [`SH_FPL_INFMCU`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_FPL_INFMCU&areaCode=1) | **88.5** (2025) | – | Percentage |
+| [5.6.2](https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-02.pdf) | Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education (%) [`SH_LGR_ACSRHE`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_LGR_ACSRHE&areaCode=1) | **76** (2022) | – | Percentage |
+| [5.6.2](https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-02.pdf) | (S.1.C.1) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 1: Maternity Care (%) [`SH_LGR_ACSRHEC1`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_LGR_ACSRHEC1&areaCode=1) | **85** (2022) | – | Percentage |
+| [5.6.2](https://unstats.un.org/sdgs/metadata/files/Metadata-05-06-02.pdf) | (S.4.C.10) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 10: HIV Counselling and Test Services [`SH_LGR_ACSRHEC10`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_LGR_ACSRHEC10&areaCode=1) | **87** (2022) | – | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

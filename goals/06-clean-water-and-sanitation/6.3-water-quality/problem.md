@@ -62,6 +62,21 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.3"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [6.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-01.pdf) | Proportion of safely treated domestic wastewater flows (%) [`EN_WWT_WWDS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_WWT_WWDS&areaCode=1) | **55.78** (2024) | 55.5 (2020) | Percentage |
+| [6.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-01.pdf) | Total wastewater generated (million m3/year) [`EN_WWT_GEN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_WWT_GEN&areaCode=1) | _No World total_ (85 countries or areas report data) | – | – |
+| [6.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-01.pdf) | Total wastewater treated (million m3/year) [`EN_WWT_TREAT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_WWT_TREAT&areaCode=1) | _No World total_ (95 countries or areas report data) | – | – |
+| [6.3.2](https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-02.pdf) | Proportion of open water bodies with good ambient water quality (%) [`EN_H2O_OPAMBQ`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_H2O_OPAMBQ&areaCode=1) | **52.5** (2023) | 49.5 (2017) | Percentage |
+| [6.3.2](https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-02.pdf) | Proportion of river water bodies with good ambient water quality (%) [`EN_H2O_RVAMBQ`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_H2O_RVAMBQ&areaCode=1) | **50.2** (2023) | 53.7 (2017) | Percentage |
+| [6.3.2](https://unstats.un.org/sdgs/metadata/files/Metadata-06-03-02.pdf) | Proportion of groundwater bodies with good ambient water quality (%) [`EN_H2O_GRAMBQ`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_H2O_GRAMBQ&areaCode=1) | **79.4** (2023) | 76.2 (2017) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 **What the UN report says** (*SDG Report 2026*, p.21, unless noted):
 
 - **More countries measure water quality.** 124 countries reported on water

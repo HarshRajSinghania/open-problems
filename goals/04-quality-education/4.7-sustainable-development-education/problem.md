@@ -54,6 +54,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.7"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [4.7.1](https://unstats.un.org/sdgs/metadata/files/Metadata-04-07-01.pdf) | Score on greening education in biodiversity (%) [`SE_SGE_BIODIV`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_SGE_BIODIV&areaCode=1) | **31.03** (2023) | – | Index |
+| [4.7.1](https://unstats.un.org/sdgs/metadata/files/Metadata-04-07-01.pdf) | Score on greening education in climate change (%) [`SE_SGE_CLIMCH`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_SGE_CLIMCH&areaCode=1) | **21.32** (2023) | – | Index |
+| [4.7.1](https://unstats.un.org/sdgs/metadata/files/Metadata-04-07-01.pdf) | Score on greening education in environment and sustainability (%) [`SE_SGE_ENVSUST`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_SGE_ENVSUST&areaCode=1) | **55.14** (2023) | – | Index |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

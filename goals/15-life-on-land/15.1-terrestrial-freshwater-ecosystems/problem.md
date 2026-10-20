@@ -56,6 +56,20 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=15&Target=15.1"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [15.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf) | Land area (thousands of hectares) [`AG_LND_TOTL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_LND_TOTL&areaCode=1) | **13,015,341.68** (2025) | 13,032,473.35 (1990) | Thousands of hectares |
+| [15.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf) | Forest area (thousands of hectares) [`AG_LND_FRSTN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_LND_FRSTN&areaCode=1) | **4,140,421.01** (2025) | 4,343,534.45 (1990) | Thousands of hectares |
+| [15.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-01.pdf) | Forest area as a proportion of total land area (%) [`AG_LND_FRST`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_LND_FRST&areaCode=1) | **31.81** (2025) | 33.33 (1990) | Percentage |
+| [15.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-02.pdf) | Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas (%) [`ER_PTD_FRHWTR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_PTD_FRHWTR&areaCode=1) | **44.21** (2025) | 26.64 (2000) | Percentage |
+| [15.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-15-01-02.pdf) | Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%) [`ER_PTD_TERR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_PTD_TERR&areaCode=1) | **45.16** (2025) | 26.15 (2000) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

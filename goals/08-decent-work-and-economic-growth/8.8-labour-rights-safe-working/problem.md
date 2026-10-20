@@ -58,6 +58,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=8&Target=8.8"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [8.8.1](https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-01.pdf) | Fatal occupational injuries among employees, by sex and migrant status (per 100,000 employees) [`SL_EMP_FTLINJUR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SL_EMP_FTLINJUR&areaCode=1) | _No World total_ (100 countries or areas report data) | – | – |
+| [8.8.1](https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-01.pdf) | Non-fatal occupational injuries among employees, by sex and migrant status (per 100,000 employees) [`SL_EMP_INJUR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SL_EMP_INJUR&areaCode=1) | _No World total_ (98 countries or areas report data) | – | – |
+| [8.8.2](https://unstats.un.org/sdgs/metadata/files/Metadata-08-08-02.pdf) | Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation [`SL_LBR_NTLCPL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SL_LBR_NTLCPL&areaCode=1) | **4.83** (2024) | 4.54 (2015) | Score |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

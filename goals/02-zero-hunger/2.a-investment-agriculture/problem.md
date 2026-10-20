@@ -58,6 +58,19 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.a"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [2.a.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-0a-01.pdf) | Agriculture orientation index for government expenditures [`AG_PRD_ORTIND`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_PRD_ORTIND&areaCode=1) | **0.45** (2024) | 0.5 (2001) | Index |
+| [2.a.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-0a-01.pdf) | Agriculture value added share of GDP (%) [`AG_PRD_AGVAS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_PRD_AGVAS&areaCode=1) | **4.09** (2024) | 3.22 (2001) | Percentage |
+| [2.a.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-0a-01.pdf) | Agriculture share of Government Expenditure (%) [`AG_XPD_AGSGB`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_XPD_AGSGB&areaCode=1) | **1.83** (2024) | 1.61 (2001) | Percentage |
+| [2.a.2](https://unstats.un.org/sdgs/metadata/files/Metadata-02-0a-02.pdf) | Total official flows (disbursements) for agriculture, by recipient countries (millions of constant 2024 United States dollars) [`DC_TOF_AGRL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=DC_TOF_AGRL&areaCode=1) | _No World total_ (157 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

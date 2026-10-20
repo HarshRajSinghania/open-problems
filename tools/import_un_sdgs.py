@@ -196,7 +196,7 @@ def data_block(target: dict, snapshot: dict) -> str:
             f"{snapshot['database_release']}, retrieved "
             f"{snapshot['retrieved']} by `tools/fetch_un_data.py`. Up to "
             "three series per indicator. Earlier value = first year with "
-            "World data. Indicator links open the UN metadata (definition "
+            "World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition "
             "and method); series codes open the raw World data from the UN "
             "API. For country data, search the series in the "
             f"[UN SDG data portal]({DATA_PORTAL}).")

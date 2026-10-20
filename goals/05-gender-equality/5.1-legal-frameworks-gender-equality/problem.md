@@ -54,6 +54,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=5&Target=5.1"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [5.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-01-01.pdf) | Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life [`SG_LGL_GENEQLFP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_LGL_GENEQLFP&areaCode=1) | **71.58** (2024) | 70.11 (2018) | Percentage |
+| [5.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-01-01.pdf) | Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) --  Area 2: violence against women [`SG_LGL_GENEQVAW`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_LGL_GENEQVAW&areaCode=1) | **79.9** (2024) | 77.15 (2018) | Percentage |
+| [5.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-01-01.pdf) | Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 3: employment and economic benefits [`SG_LGL_GENEQEMP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_LGL_GENEQEMP&areaCode=1) | **77.02** (2024) | 73.4 (2018) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

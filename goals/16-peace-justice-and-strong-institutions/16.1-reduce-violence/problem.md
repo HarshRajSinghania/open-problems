@@ -66,6 +66,24 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.1"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [16.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-01.pdf) | Number of victims of intentional homicide per 100,000 population, by sex (victims per 100,000 population) [`VC_IHR_PSRC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_IHR_PSRC&areaCode=1) | **5.14** (2024) | 6.9 (2000) | Per 100,000 population |
+| [16.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-01.pdf) | Number of victims of intentional homicide, by sex (number) [`VC_IHR_PSRCN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_IHR_PSRCN&areaCode=1) | _No World total_ (206 countries or areas report data) | – | – |
+| [16.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-02.pdf) | Number of conflict-related deaths (civilians), by sex, age and cause of death (Number) [`VC_DTH_TOCVN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DTH_TOCVN&areaCode=1) | **37,163** (2025) | 35,671 (2015) | Number |
+| [16.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-02.pdf) | Number of total conflict-related deaths per 100,000 population (Per 100,000 population) [`VC_DTH_TOTR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DTH_TOTR&areaCode=1) | **5.98** (2025) | 9.38 (2015) | Per 100,000 population |
+| [16.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-02.pdf) | Number of total conflict-related deaths, by sex, age and cause of death (Number) [`VC_DTH_TOTN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DTH_TOTN&areaCode=1) | **51,902** (2025) | 68,776 (2015) | Number |
+| [16.1.3](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-03.pdf) | Proportion of population subjected to physical violence in the previous 12 months, by sex (%) [`VC_VOV_PHYL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_VOV_PHYL&areaCode=1) | _No World total_ (68 countries or areas report data) | – | – |
+| [16.1.3](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-03.pdf) | Proportion of population subjected to robbery in the previous 12 months, by sex (%) [`VC_VOV_ROBB`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_VOV_ROBB&areaCode=1) | _No World total_ (90 countries or areas report data) | – | – |
+| [16.1.3](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-03.pdf) | Proportion of population subjected to sexual violence in the previous 12 months, by sex (%) [`VC_VOV_SEXL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_VOV_SEXL&areaCode=1) | _No World total_ (31 countries or areas report data) | – | – |
+| [16.1.4](https://unstats.un.org/sdgs/metadata/files/Metadata-16-01-04.pdf) | Proportion of population that feel safe walking alone around the area they live after dark (%) [`VC_SNS_WALN_DRK`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_SNS_WALN_DRK&areaCode=1) | _No World total_ (94 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

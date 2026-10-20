@@ -52,6 +52,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.a"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [4.a.1](https://unstats.un.org/sdgs/metadata/files/Metadata-04-0a-01.pdf) | Proportion of schools with access to computers for pedagogical purposes, by education level (%) (Education level: Upper secondary) [`SE_ACS_CMPTR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_ACS_CMPTR&areaCode=1) | **76.47** (2024) | 72.78 (2015) | Percentage |
+| [4.a.1](https://unstats.un.org/sdgs/metadata/files/Metadata-04-0a-01.pdf) | Proportion of schools with access to basic drinking water, by education level (%) (Education level: Lower secondary) [`SE_ACS_H2O`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_ACS_H2O&areaCode=1) | **86.03** (2024) | 81.3 (2015) | Percentage |
+| [4.a.1](https://unstats.un.org/sdgs/metadata/files/Metadata-04-0a-01.pdf) | Proportion of schools with access to electricity, by education level (%) (Education level: Lower secondary) [`SE_ACS_ELECT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_ACS_ELECT&areaCode=1) | **86.76** (2024) | 76.67 (2011) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

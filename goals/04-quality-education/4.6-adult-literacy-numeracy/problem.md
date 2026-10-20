@@ -54,6 +54,16 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.6"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [4.6.1](https://unstats.un.org/sdgs/metadata/files/Metadata-04-06-01.pdf) | Youth/adult literacy rate (%) (Age: 15 to 24 years old; Type of skill: Literacy) [`SE_ADT_LITR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SE_ADT_LITR&areaCode=1) | **93.11** (2024) | 86.72 (2000) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

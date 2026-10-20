@@ -52,6 +52,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [6.6.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6) | Extent of human made wetlands (square kilometres) [`EN_WBE_HMWTL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_WBE_HMWTL&areaCode=1) | **192,273.27** (2025) | 743,884.74 (2021) | Square kilometers |
+| [6.6.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6) | Extent of inland wetlands (square kilometres) [`EN_WBE_INWTL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_WBE_INWTL&areaCode=1) | **2,318,052.57** (2025) | 5,779,187.03 (2021) | Square kilometers |
+| [6.6.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.6) | Lakes and rivers permanent water area (square kilometres) [`EN_LKRV_PWAN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_LKRV_PWAN&areaCode=1) | **2,585,526.57** (2022) | 1,976,782.16 (2000) | Square kilometers |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

@@ -54,6 +54,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=10&Target=10.b"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [10.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-10-0b-01.pdf) | Total assistance for development, by donor countries (millions of current United States dollars) [`DC_TRF_TOTDL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=DC_TRF_TOTDL&areaCode=1) | _No World total_ (50 countries or areas report data) | – | – |
+| [10.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-10-0b-01.pdf) | Total assistance for development, by recipient countries (millions of current United States dollars) [`DC_TRF_TOTL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=DC_TRF_TOTL&areaCode=1) | _No World total_ (158 countries or areas report data) | – | – |
+| [10.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-10-0b-01.pdf) | Total resource flows for development, by recipient and donor countries (millions of current United States dollars) [`DC_TRF_TFDV`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=DC_TRF_TFDV&areaCode=1) | _No World total_ (0 countries or areas report data) | – | – |
+
+The UN publishes no World total for these series yet. World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

@@ -52,6 +52,17 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.a"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [16.a.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-0a-01.pdf) | Proportion of countries with independent National Human Rights Institutions in compliance with the Paris Principles (%) [`SG_NHR_IMPL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_NHR_IMPL&areaCode=1) | **45.64** (2026) | 16.41 (2000) | Percentage |
+| [16.a.1](https://unstats.un.org/sdgs/metadata/files/Metadata-16-0a-01.pdf) | Countries with National Human Rights Institutions in compliance with the Paris Principles (0 = No status; 1 = Status B, partially compliant; 2 = Status A, fully compliant) [`SG_NHR_CMPLNC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_NHR_CMPLNC&areaCode=1) | _No World total_ (194 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

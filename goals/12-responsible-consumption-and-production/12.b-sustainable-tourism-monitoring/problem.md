@@ -52,6 +52,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.b"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [12.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-0b-01.pdf) | Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (number of tables) [`ST_EEV_STDACCT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ST_EEV_STDACCT&areaCode=1) | **66** (2024) | 334 (2008) | Number |
+| [12.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-0b-01.pdf) | Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (SEEA tables) [`ST_EEV_ACCSEEA`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ST_EEV_ACCSEEA&areaCode=1) | **9** (2024) | 69 (2008) | Number |
+| [12.b.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-0b-01.pdf) | Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism (Tourism Satellite Account tables) [`ST_EEV_ACCTSA`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ST_EEV_ACCTSA&areaCode=1) | **57** (2024) | 265 (2008) | Number |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

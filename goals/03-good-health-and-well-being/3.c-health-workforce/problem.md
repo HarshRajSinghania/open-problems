@@ -54,6 +54,17 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.c"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [3.c.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0c-01.pdf) | Health worker density, by type of occupation (per 10,000 population) (Type of occupation: Medical doctors) [`SH_MED_DEN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_MED_DEN&areaCode=1) | **18.4** (2023) | – | Per 10,000 population |
+| [3.c.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0c-01.pdf) | Health worker distribution, by sex and type of occupation (%) [`SH_MED_HWRKDIS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_MED_HWRKDIS&areaCode=1) | _No World total_ (180 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

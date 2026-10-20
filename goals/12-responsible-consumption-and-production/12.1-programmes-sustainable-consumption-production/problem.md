@@ -52,6 +52,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.1"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [12.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-01-01.pdf) | Countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or target into national policies (1 = YES; 0 = NO) [`SG_SCP_CNTRY`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_SCP_CNTRY&areaCode=1) | **10** (2025) | 16 (2019) | Number |
+| [12.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-01-01.pdf) | Countries with policy instrument for sustainable consumption and production (1 = YES; 0 = NO) (Policy instruments: Voluntary and self-regulation schemes (e.g. sectoral partnerships, codes of conduct, CSR initiatives)) [`SG_SCP_POLINS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_SCP_POLINS&areaCode=1) | **14** (2025) | 3 (2019) | Number |
+| [12.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-01-01.pdf) | Number of policies, instruments and mechanism in place for sustainable consumption and production (Number) [`SG_SCP_TOTLN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_SCP_TOTLN&areaCode=1) | **174** (2025) | 28 (2019) | Number |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

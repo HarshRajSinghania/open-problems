@@ -58,6 +58,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=5&Target=5.3"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [5.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf) | Proportion of women aged 20-24 years who were married or in a union before age 18 (%) (Age: 20 to 24 years old; Sex: Female) [`SP_DYN_MRBF18`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_DYN_MRBF18&areaCode=1) | **18.47** (2025) | 24.17 (2005) | Percentage |
+| [5.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-01.pdf) | Proportion of women aged 20-24 years who were married or in a union before age 15 (%) (Age: 20 to 24 years old; Sex: Female) [`SP_DYN_MRBF15`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_DYN_MRBF15&areaCode=1) | **4.17** (2025) | 7.77 (2005) | Percentage |
+| [5.3.2](https://unstats.un.org/sdgs/metadata/files/Metadata-05-03-02.pdf) | Proportion of girls and women aged 15-49 years who have undergone female genital mutilation, by age (%) [`SH_STA_FGMS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_FGMS&areaCode=1) | _No World total_ (31 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

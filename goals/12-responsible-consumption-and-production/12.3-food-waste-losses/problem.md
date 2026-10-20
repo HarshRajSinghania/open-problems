@@ -52,6 +52,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.3"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [12.3.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.3) | Food waste per capita (KG) [`AG_FOOD_WST_PC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_FOOD_WST_PC&areaCode=1) | **131.91** (2022) | 119.88 (2019) | Kilograms |
+| [12.3.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.3) | Food waste (Tonnes) [`AG_FOOD_WST`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_FOOD_WST&areaCode=1) | **1,051,962,676** (2022) | 930,863,854 (2019) | Tonnes |
+| [12.3.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.3) | Global food loss index [`AG_FLS_INDEX`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_FLS_INDEX&areaCode=1) | **101.99** (2023) | 100 (2015) | Index |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

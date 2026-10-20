@@ -54,6 +54,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=9&Target=9.c"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [9.c.1](https://unstats.un.org/sdgs/metadata/files/Metadata-09-0c-01.pdf) | Proportion of population covered by at least a 2G mobile network (%) [`IT_MOB_2GNTWK`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IT_MOB_2GNTWK&areaCode=1) | **98.1** (2025) | 86.4 (2010) | Percentage |
+| [9.c.1](https://unstats.un.org/sdgs/metadata/files/Metadata-09-0c-01.pdf) | Proportion of population covered by at least a 3G mobile network (%) [`IT_MOB_3GNTWK`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IT_MOB_3GNTWK&areaCode=1) | **96.28** (2025) | 41.5 (2010) | Percentage |
+| [9.c.1](https://unstats.un.org/sdgs/metadata/files/Metadata-09-0c-01.pdf) | Proportion of population covered by at least a 4G mobile network (%) [`IT_MOB_4GNTWK`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IT_MOB_4GNTWK&areaCode=1) | **92.7** (2025) | 43.5 (2015) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

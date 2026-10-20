@@ -52,6 +52,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.4"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [2.4.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-04-01.pdf) | [PROXY] Progress toward productive and sustainable agriculture, trend score [`AG_LND_SUST_PRXTS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_LND_SUST_PRXTS&areaCode=1) | **3.98** (2024) | 3.43 (2015) | Score |
+| [2.4.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-04-01.pdf) | [PROXY] Progress toward productive and sustainable agriculture, current status score [`AG_LND_SUST_PRXCSS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_LND_SUST_PRXCSS&areaCode=1) | **3.28** (2024) | 3.25 (2015) | Score |
+| [2.4.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-04-01.pdf) | Proportion of agricultural area under productive and sustainable agriculture (%) [`AG_LND_SUST`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_LND_SUST&areaCode=1) | _No World total_ (10 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

@@ -58,6 +58,20 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.2"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [3.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-01.pdf) | Infant deaths (number) (Age: under 1 year old) [`SH_DYN_IMRTN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_DYN_IMRTN&areaCode=1) | **3,619,746** (2024) | 7,067,875 (2000) | Number |
+| [3.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-01.pdf) | Under-five mortality rate, by sex (deaths per 1,000 live births) (Age: under 5 years old) [`SH_DYN_MORT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_DYN_MORT&areaCode=1) | **37.37** (2024) | 76.68 (2000) | Per 1,000 live births |
+| [3.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-01.pdf) | Infant mortality rate (deaths per 1,000 live births) (Age: under 1 year old) [`SH_DYN_IMRT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_DYN_IMRT&areaCode=1) | **27.68** (2024) | 53.26 (2000) | Per 1,000 live births |
+| [3.2.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-02.pdf) | Neonatal deaths (number) (Age: under 1 month old) [`SH_DYN_NMRTN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_DYN_NMRTN&areaCode=1) | **2,271,170** (2024) | 4,094,729 (2000) | Number |
+| [3.2.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-02-02.pdf) | Neonatal mortality rate (deaths per 1,000 live births) (Age: under 1 month old) [`SH_DYN_NMRT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_DYN_NMRT&areaCode=1) | **17.2** (2024) | 30.29 (2000) | Per 1,000 live births |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

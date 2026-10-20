@@ -66,6 +66,25 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.2"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [2.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-01.pdf) | Proportion of children moderately or severely stunted (%) (Age: under 5 years old) [`SH_STA_STNT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_STNT&areaCode=1) | **23.2** (2024) | 33.1 (2000) | % of children aged 0-59 months |
+| [2.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-01.pdf) | Children moderately or severely stunted (thousands) (Age: under 5 years old) [`SH_STA_STNTN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_STNTN&areaCode=1) | **150,194.9** (2024) | 207,205.4 (2000) | Thousands |
+| [2.2.2](https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.2) | Proportion of children moderately or severely wasted (%) (Age: under 5 years old) [`SH_STA_WAST`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_WAST&areaCode=1) | **6.6** (2024) | 8.8 (2000) | % of children aged 0-59 months |
+| [2.2.2](https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.2) | Children moderately or severely wasted (thousands) (Age: under 5 years old) [`SH_STA_WASTN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_WASTN&areaCode=1) | **42,754.2** (2024) | 54,994.8 (2000) | Thousands |
+| [2.2.2](https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.2) | Proportion of children moderately or severely overweight (%) (Age: under 5 years old) [`SN_STA_OVWGT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SN_STA_OVWGT&areaCode=1) | **5.5** (2024) | 5.3 (2000) | % of children aged 0-59 months |
+| [2.2.3](https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-03.pdf) | Proportion of women aged 15-49 years with anaemia (%) (Age: 15 to 49 years old; Sex: Female) [`SH_STA_ANEM`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_ANEM&areaCode=1) | **30.7** (2023) | 29.3 (2000) | Percentage |
+| [2.2.3](https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-03.pdf) | Proportion of women aged 15-49 years with anaemia, pregnant (%) (Age: 15 to 49 years old; Sex: Female) [`SH_STA_ANEM_PREG`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_ANEM_PREG&areaCode=1) | **35.5** (2023) | 40.3 (2000) | Percentage |
+| [2.2.3](https://unstats.un.org/sdgs/metadata/files/Metadata-02-02-03.pdf) | Proportion of women aged 15-49 years with anaemia, non-pregnant (%) (Age: 15 to 49 years old; Sex: Female) [`SH_STA_ANEM_NPRG`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_ANEM_NPRG&areaCode=1) | **30.5** (2023) | 28.7 (2000) | Percentage |
+| [2.2.4](https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.2) | Prevalence of minimum dietary diversity among non-pregnant women aged 15-49 years (%) (Age: 15 to 49 years old; Sex: Female) [`SH_MDD_WMN_NPRG`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_MDD_WMN_NPRG&areaCode=1) | **62.73** (2025) | 64.05 (2023) | Percentage |
+| [2.2.4](https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.2) | Prevalence of minimum dietary diversity among children aged 6-23 months (%) (Age: 6 to 23 months old) [`SH_MDD_CHLD`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_MDD_CHLD&areaCode=1) | **30.8** (2024) | – | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

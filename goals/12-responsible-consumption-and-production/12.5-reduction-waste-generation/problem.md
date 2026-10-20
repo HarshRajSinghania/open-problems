@@ -52,6 +52,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.5"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [12.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-05-01.pdf) | Electronic waste recycled (Tonnes) [`EN_EWT_RCYV`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_EWT_RCYV&areaCode=1) | **13,807,090.07** (2022) | 7,960,597.69 (2010) | Tonnes |
+| [12.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-05-01.pdf) | Proportion of electronic waste recycled (%) [`EN_EWT_RCYR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_EWT_RCYR&areaCode=1) | **22.3** (2022) | 23.31 (2010) | Percentage |
+| [12.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-05-01.pdf) | Electronic waste recycled, per capita (Kg) [`EN_EWT_RCYPCAP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EN_EWT_RCYPCAP&areaCode=1) | **1.73** (2022) | 1.14 (2010) | Kilograms |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

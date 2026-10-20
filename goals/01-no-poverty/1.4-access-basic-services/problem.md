@@ -58,6 +58,20 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.4"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [1.4.1](https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-01.pdf) | Proportion of population using basic drinking water services, by location (%) [`SP_ACS_BSRVH2O`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_ACS_BSRVH2O&areaCode=1) | **91.47** (2024) | 81.59 (2000) | Percentage |
+| [1.4.1](https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-01.pdf) | Proportion of population using basic sanitation services, by location (%) [`SP_ACS_BSRVSAN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_ACS_BSRVSAN&areaCode=1) | **82.01** (2024) | 55.89 (2000) | Percentage |
+| [1.4.2](https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-02.pdf) | Proportion of people with legally recognized documentation of their rights to land out of total adult population, by sex (%) [`SP_LGL_LNDDOC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_LGL_LNDDOC&areaCode=1) | _No World total_ (63 countries or areas report data) | – | – |
+| [1.4.2](https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-02.pdf) | Proportion of people who perceive their rights to land as secure out of total adult population, by sex (%) [`SP_LGL_LNDSEC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_LGL_LNDSEC&areaCode=1) | _No World total_ (27 countries or areas report data) | – | – |
+| [1.4.2](https://unstats.un.org/sdgs/metadata/files/Metadata-01-04-02.pdf) | Proportion of people with secure tenure rights to land out of total adult population, by sex (%) [`SP_LGL_LNDSTR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SP_LGL_LNDSTR&areaCode=1) | _No World total_ (86 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

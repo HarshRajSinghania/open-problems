@@ -54,6 +54,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.c"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [12.c.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-0c-01.pdf) | Fossil-fuel subsidies (consumption and production) as a proportion of total GDP (%) [`ER_FFS_CMPT_GDP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_FFS_CMPT_GDP&areaCode=1) | **1.29** (2024) | 1.22 (2010) | Percentage |
+| [12.c.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-0c-01.pdf) | Fossil-fuel subsidies (consumption and production) (billions of nominal United States dollars) [`ER_FFS_CMPT_CD`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_FFS_CMPT_CD&areaCode=1) | **921.22** (2024) | 575.96 (2010) | Billions of current United States dollars |
+| [12.c.1](https://unstats.un.org/sdgs/metadata/files/Metadata-12-0c-01.pdf) | Fossil-fuel subsidies (consumption and production) per capita (nominal United States dollars) [`ER_FFS_CMPT_PC_CD`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_FFS_CMPT_PC_CD&areaCode=1) | **112.87** (2024) | 82.02 (2010) | USD |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

@@ -58,6 +58,20 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=8&Target=8.10"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [8.10.1](https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf) | Number of automated teller machines (ATMs) per 100,000 adults (Age: 15 years old and over) [`FB_ATM_TOTL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=FB_ATM_TOTL&areaCode=1) | **61.4** (2024) | 33.2 (2005) | Per 100,000 population |
+| [8.10.1](https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-01.pdf) | Number of commercial bank branches per 100,000 adults (Age: 15 years old and over) [`FB_CBK_BRCH`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=FB_CBK_BRCH&areaCode=1) | **13.6** (2024) | 13.7 (2005) | Per 100,000 population |
+| [8.10.2](https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf) | Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider, by sex (% of adults aged 15 years and older) (Age: 15 to 24 years old) [`FB_BNK_ACCSS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=FB_BNK_ACCSS&areaCode=1) | **69.08** (2024) | 36.95 (2011) | Percentage |
+| [8.10.2](https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf) | Proportion of adults (15 years and older) active in labor force with an account at a financial institution or mobile-money-service provider (% of adults aged 15 years and older) (Age: 15 years old and over) [`FB_BNK_ACCSS_ILF`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=FB_BNK_ACCSS_ILF&areaCode=1) | **79.56** (2024) | 55.76 (2011) | Percentage |
+| [8.10.2](https://unstats.un.org/sdgs/metadata/files/Metadata-08-10-02.pdf) | Proportion of adults (15 years and older) out of labor force with an account at a financial institution or mobile-money-service provider (% of adults aged 15 years and older) (Age: 15 years old and over) [`FB_BNK_ACCSS_OLF`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=FB_BNK_ACCSS_OLF&areaCode=1) | **66.56** (2024) | 38.26 (2011) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

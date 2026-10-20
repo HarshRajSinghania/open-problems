@@ -62,6 +62,22 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.18"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [17.18.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.18) | Data Sources performance index (Statistical Performance Indicators Pillar 4) (Index) [`IQ_SPI_PIL4`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IQ_SPI_PIL4&areaCode=1) | **57.56** (2024) | 51.23 (2016) | Index |
+| [17.18.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.18) | Data Infrastructure performance index (Statistical Performance Indicators Pillar 5) (Index) [`IQ_SPI_PIL5`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IQ_SPI_PIL5&areaCode=1) | **64.5** (2024) | 47.46 (2016) | Index |
+| [17.18.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.18) | Open Data Inventory (ODIN) Coverage Index [`SG_STT_ODIN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_STT_ODIN&areaCode=1) | **52.5** (2024) | 47.1 (2022) | Index |
+| [17.18.2](https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-02.pdf) | Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (1 = YES; 0 = NO) [`SG_STT_FPOS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_STT_FPOS&areaCode=1) | **163** (2025) | 132 (2019) | Number |
+| [17.18.3](https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-03.pdf) | Countries with national statistical plans with funding from Government (1 = YES; 0 = NO) [`SG_STT_NSDSFDGVT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_STT_NSDSFDGVT&areaCode=1) | **98** (2025) | 139 (2019) | Number |
+| [17.18.3](https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-03.pdf) | Countries with national statistical plans with funding from donors (1 = YES; 0 = NO) [`SG_STT_NSDSFDDNR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_STT_NSDSFDDNR&areaCode=1) | **27** (2025) | 57 (2019) | Number |
+| [17.18.3](https://unstats.un.org/sdgs/metadata/files/Metadata-17-18-03.pdf) | Countries with national statistical plans with funding from others (1 = YES; 0 = NO) [`SG_STT_NSDSFDOTHR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_STT_NSDSFDOTHR&areaCode=1) | **7** (2025) | 21 (2019) | Number |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

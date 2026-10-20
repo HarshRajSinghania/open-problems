@@ -52,6 +52,16 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=7&Target=7.3"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [7.3.1](https://unstats.un.org/sdgs/metadata/files/Metadata-07-03-01.pdf) | Energy intensity level of primary energy (megajoules per constant 2021 purchasing power parity GDP) [`EG_EGY_PRIM`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EG_EGY_PRIM&areaCode=1) | **3.76** (2023) | 6.04 (1990) | Megajoules per USD constant 2011 PPP GDP |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

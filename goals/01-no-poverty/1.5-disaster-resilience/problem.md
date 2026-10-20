@@ -66,6 +66,26 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.5"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [1.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-01.pdf) | Number of missing persons due to disaster (number) [`VC_DSR_MISS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DSR_MISS&areaCode=1) | _No World total_ (152 countries or areas report data) | – | – |
+| [1.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-01.pdf) | Number of people affected by disaster (number) [`VC_DSR_AFFCT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DSR_AFFCT&areaCode=1) | _No World total_ (166 countries or areas report data) | – | – |
+| [1.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-01.pdf) | Number of deaths due to disaster (number) [`VC_DSR_MORT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DSR_MORT&areaCode=1) | _No World total_ (172 countries or areas report data) | – | – |
+| [1.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf) | Direct economic loss attributed to disasters (current United States dollars) [`VC_DSR_GDPLS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DSR_GDPLS&areaCode=1) | _No World total_ (163 countries or areas report data) | – | – |
+| [1.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf) | Direct economic loss attributed to disasters relative to GDP (%) [`VC_DSR_LSGP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DSR_LSGP&areaCode=1) | _No World total_ (163 countries or areas report data) | – | – |
+| [1.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-02.pdf) | Direct agriculture loss attributed to disasters (current United States dollars) [`VC_DSR_AGLH`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_DSR_AGLH&areaCode=1) | _No World total_ (115 countries or areas report data) | – | – |
+| [1.5.3](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf) | Number of countries that reported having a National DRR Strategy which is aligned to the Sendai Framework [`SG_DSR_SFDRR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_DSR_SFDRR&areaCode=1) | **146** (2025) | 129 (2023) | Number |
+| [1.5.3](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf) | Score of adoption and implementation of national DRR strategies in line with the Sendai Framework [`SG_DSR_LGRGSR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_DSR_LGRGSR&areaCode=1) | _No World total_ (141 countries or areas report data) | – | – |
+| [1.5.4](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-04.pdf) | Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%) [`SG_DSR_SILS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_DSR_SILS&areaCode=1) | _No World total_ (129 countries or areas report data) | – | – |
+| [1.5.4](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-04.pdf) | Number of local governments that adopt and implement local DRR strategies in line with national strategies (number) [`SG_DSR_SILN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_DSR_SILN&areaCode=1) | _No World total_ (129 countries or areas report data) | – | – |
+| [1.5.4](https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-04.pdf) | Number of local governments (number) [`SG_GOV_LOGV`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_GOV_LOGV&areaCode=1) | _No World total_ (132 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

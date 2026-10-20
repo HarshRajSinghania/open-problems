@@ -60,6 +60,20 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.9"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [3.9.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-01.pdf) | Age-standardized mortality rate attributed to household air pollution (deaths per 100,000 population) [`SH_HAP_ASMORT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_HAP_ASMORT&areaCode=1) | **52** (2019) | – | Per 100,000 population |
+| [3.9.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-01.pdf) | Age-standardized mortality rate attributed to household and ambient air pollution (deaths per 100,000 population) [`SH_STA_ASAIRP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_ASAIRP&areaCode=1) | **104** (2019) | – | Per 100,000 population |
+| [3.9.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-01.pdf) | Age-standardized mortality rate attributed to ambient air pollution (deaths per 100,000 population) [`SH_AAP_ASMORT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_AAP_ASMORT&areaCode=1) | **59** (2019) | – | Per 100,000 population |
+| [3.9.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-02.pdf) | Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene from diarrhoea, intestinal nematode infections, malnutrition and acute respiratory infections (deaths per 100,000 population) [`SH_STA_WASHARI`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_WASHARI&areaCode=1) | **18.21** (2019) | – | Per 100,000 population |
+| [3.9.3](https://unstats.un.org/sdgs/metadata/files/Metadata-03-09-03.pdf) | Mortality rate attributed to unintentional poisonings, by sex (deaths per 100,000 population) [`SH_STA_POISN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_STA_POISN&areaCode=1) | **0.7** (2021) | 1 (2000) | Per 100,000 population |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

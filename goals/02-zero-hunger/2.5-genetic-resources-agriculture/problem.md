@@ -56,6 +56,21 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.5"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [2.5.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.5) | Number of local breeds kept in the country [`ER_GRF_ANIMKPT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_GRF_ANIMKPT&areaCode=1) | **8,098** (2025) | 2,901 (2000) | Number |
+| [2.5.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.5) | Number of local breeds for which sufficient genetic resources are stored for reconstitution [`ER_GRF_ANIMRCNTN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_GRF_ANIMRCNTN&areaCode=1) | **483** (2025) | 296 (2020) | Number |
+| [2.5.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.5) | Plant genetic resources accessions stored ex situ (number) [`ER_GRF_PLNTSTOR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_GRF_PLNTSTOR&areaCode=1) | **5,987,633** (2024) | 3,110,474 (1995) | Number |
+| [2.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-02-05-02.pdf) | Number of local breeds with unknown risk status (number) [`ER_UNK_LBREDN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_UNK_LBREDN&areaCode=1) | **3,606** (2025) | 671 (2000) | Number |
+| [2.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-02-05-02.pdf) | Proportion of local breeds classified as being at risk of extinction as a share of local breeds with known level of extinction risk (%) [`ER_RSK_LBREDS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_RSK_LBREDS&areaCode=1) | **62.61** (2025) | 60 (2000) | Percentage |
+| [2.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-02-05-02.pdf) | Number of local breeds (not extinct) (number) [`ER_NOEX_LBREDN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_NOEX_LBREDN&areaCode=1) | **7,377** (2025) | 2,758 (2000) | Number |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

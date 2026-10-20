@@ -58,6 +58,20 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.1"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [2.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-01.pdf) | Prevalence of undernourishment (%) [`SN_ITK_DEFC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SN_ITK_DEFC&areaCode=1) | **7.8** (2025) | 12.8 (2000) | Percentage |
+| [2.1.1](https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-01.pdf) | Number of undernourished people (millions) [`SN_ITK_DEFCN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SN_ITK_DEFCN&areaCode=1) | **644.6** (2025) | 791 (2000) | Millions |
+| [2.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf) | Prevalence of moderate or severe food insecurity in the population (%) [`AG_PRD_FIESMS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_PRD_FIESMS&areaCode=1) | **25.8** (2025) | 21 (2014) | Percentage |
+| [2.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf) | Population in moderate or severe food insecurity (thousands of people) [`AG_PRD_FIESMSN`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_PRD_FIESMSN&areaCode=1) | **2,124,084.3** (2025) | 1,551,294.9 (2014) | Thousands |
+| [2.1.2](https://unstats.un.org/sdgs/metadata/files/Metadata-02-01-02.pdf) | Prevalence of severe food insecurity in the population (%) [`AG_PRD_FIESS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=AG_PRD_FIESS&areaCode=1) | **9.5** (2025) | 7.6 (2014) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

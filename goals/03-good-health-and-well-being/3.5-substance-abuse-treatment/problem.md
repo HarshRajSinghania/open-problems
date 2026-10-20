@@ -56,6 +56,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.5"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [3.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-01.pdf) | Alcohol use disorders, 12-month prevalence (%) [`SH_SUD_ALCOL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_SUD_ALCOL&areaCode=1) | _No World total_ (190 countries or areas report data) | – | – |
+| [3.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-01.pdf) | Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders (%) [`SH_SUD_TREAT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_SUD_TREAT&areaCode=1) | _No World total_ (107 countries or areas report data) | – | – |
+| [3.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-05-02.pdf) | Alcohol consumption per capita (aged 15 years and older) within a calendar year (litres of pure alcohol) (Age: 15 years old and over) [`SH_ALC_CONSPT`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_ALC_CONSPT&areaCode=1) | **4.86** (2024) | 4.71 (2000) | Litres pure alcohol |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

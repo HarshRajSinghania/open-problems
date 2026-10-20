@@ -56,6 +56,21 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.7"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [16.7.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.7) | Number of chairs of permanent committees, by age sex and focus of the committee, Joint Committees (Age: 46 years old and over; Parliamentary committees: Finance; Sex: Male) [`SG_DMK_PARLCC_JC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_DMK_PARLCC_JC&areaCode=1) | **1** (2026) | 2 (2021) | Number |
+| [16.7.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.7) | Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population with the age of eligibility as a lower bound boundary), Lower Chamber or Unicameral [`SG_DMK_PARLMP_LC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_DMK_PARLMP_LC&areaCode=1) | **0.54** (2026) | 0.51 (2021) | Ratio |
+| [16.7.1](https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.7) | Number of speakers in parliament, by age and sex , Lower Chamber or Unicameral [`SG_DMK_PARLSP_LC`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SG_DMK_PARLSP_LC&areaCode=1) | **187** (2026) | – | Number |
+| [16.7.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-02.pdf) | Proportion of population who believe decision-making is inclusive (%) [`IU_DMK_INCL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IU_DMK_INCL&areaCode=1) | **44.39** (2025) | – | Percentage |
+| [16.7.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-02.pdf) | Proportion of population who believe decision-making is inclusive and responsive (%) [`IU_DMK_ICRS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IU_DMK_ICRS&areaCode=1) | _No World total_ (22 countries or areas report data) | – | – |
+| [16.7.2](https://unstats.un.org/sdgs/metadata/files/Metadata-16-07-02.pdf) | Proportion of population who believe decision-making is responsive (%) [`IU_DMK_RESP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=IU_DMK_RESP&areaCode=1) | _No World total_ (23 countries or areas report data) | – | – |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

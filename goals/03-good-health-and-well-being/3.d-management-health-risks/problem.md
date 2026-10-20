@@ -56,6 +56,18 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.d"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [3.d.1](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0d-01.pdf) | International Health Regulations (IHR) capacity, by type of IHR capacity (%) [`SH_IHR_CAPS`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_IHR_CAPS&areaCode=1) | **64** (2024) | 58 (2010) | Percentage |
+| [3.d.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0d-02.pdf) | Percentage of bloodstream infection due to methicillin-resistant Staphylococcus aureus (MRSA) among patients seeking care and whose blood sample is taken and tested (%) [`SH_BLD_MRSA`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_BLD_MRSA&areaCode=1) | **33.89** (2022) | 20.6 (2016) | Percentage |
+| [3.d.2](https://unstats.un.org/sdgs/metadata/files/Metadata-03-0d-02.pdf) | Percentage of bloodstream infection due to Escherichia coli resistant to 3rd-generation cephalosporin (e.g., ESBL- E. coli) among patients seeking care and whose blood sample is taken and tested (%) [`SH_BLD_ECOLI`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=SH_BLD_ECOLI&areaCode=1) | **44.7** (2022) | 35.8 (2016) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

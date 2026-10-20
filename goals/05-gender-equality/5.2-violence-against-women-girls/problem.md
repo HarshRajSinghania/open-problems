@@ -58,6 +58,17 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=5&Target=5.2"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [5.2.1](https://unstats.un.org/sdgs/metadata/files/Metadata-05-02-01.pdf) | Proportion of ever-partnered women and girls subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months, by age (%) (Age: 15 to 49 years old; Sex: Female) [`VC_VAW_MARR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_VAW_MARR&areaCode=1) | **13.7** (2023) | – | Percentage |
+| [5.2.2](https://unstats.un.org/sdgs/metadata/files/Metadata-05-02-02.pdf) | Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months (%) (Age: 15 to 49 years old; Sex: Female) [`VC_VAW_NONMARR`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_VAW_NONMARR&areaCode=1) | **2.7** (2023) | – | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists

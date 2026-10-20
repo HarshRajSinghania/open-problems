@@ -56,6 +56,21 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.5"
 Source: "SDG progress by target", *The Sustainable Development Goals Report 2026*, pp.44-45 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)). For goal-level facts see [Why it matters](../README.md#why-it-matters).
 <!-- UN:END status -->
 
+<!-- UN:START data -->
+### Latest global numbers
+
+| Indicator | Data series (UN code) | Latest World value | Earlier World value | Unit |
+|---|---|---|---|---|
+| [6.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-01.pdf) | Degree of integrated water resources management implementation (%) [`ER_H2O_IWRMD`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_H2O_IWRMD&areaCode=1) | **57** (2023) | 49 (2017) | Percentage |
+| [6.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-01.pdf) | Proportion of countries by IWRM implementation category (%) (Level/Status: Medium-low level of implementation) [`ER_H2O_IWRMP`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_H2O_IWRMP&areaCode=1) | **32** (2023) | 41 (2017) | Percentage |
+| [6.5.1](https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-01.pdf) | Degree of integrated water resources management implementation, enabling environment (%) [`ER_H2O_IWRMD_EE`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=ER_H2O_IWRMD_EE&areaCode=1) | **61** (2023) | 51 (2017) | Percentage |
+| [6.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf) | Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation (%) [`EG_TBA_H2CO`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EG_TBA_H2CO&areaCode=1) | **58.54** (2023) | 59.16 (2017) | Percentage |
+| [6.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf) | Proportion of transboundary aquifers with an operational arrangement for water cooperation (%) [`EG_TBA_H2COAQ`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EG_TBA_H2COAQ&areaCode=1) | **45.88** (2023) | 48.51 (2017) | Percentage |
+| [6.5.2](https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf) | Proportion of transboundary river and lake basins with an operational arrangement for water cooperation (%) [`EG_TBA_H2CORL`](https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=EG_TBA_H2CORL&areaCode=1) | **65.75** (2023) | 63.98 (2017) | Percentage |
+
+World figures (UN area code 1) copied from the [UN SDG Global Database](https://unstats.un.org/sdgs/dataportal/database), release 2026.Q3.G.01, retrieved 2026-10-20 by `tools/fetch_un_data.py`. Up to three series per indicator. Earlier value = first year with World data. Values rounded to 2 decimals. Indicator links open the UN metadata (definition and method); series codes open the raw World data from the UN API. For country data, search the series in the [UN SDG data portal](https://unstats.un.org/sdgs/dataportal/database).
+<!-- UN:END data -->
+
 > **Help wanted:** add the latest numbers for this target (with source and page number), and who is most affected.
 
 ## What already exists
