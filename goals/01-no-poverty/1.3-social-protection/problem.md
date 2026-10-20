@@ -24,7 +24,7 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.3"
 <!-- UN:END header -->
 
 <!-- UN:START plain -->
-> **In plain language:** Every country should set up safety nets - such as pensions, child benefits or unemployment support - that suit its situation. By 2030 most poor and vulnerable people should be covered.
+> **In plain language:** Every country should set up social protection systems that suit its situation and cover everyone, including a basic minimum level of support. By 2030 a large share of poor and vulnerable people should be covered.
 >
 > **Who it is about:** Poor and vulnerable people.
 >

@@ -24,7 +24,7 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=15&Target=15.6"
 <!-- UN:END header -->
 
 <!-- UN:START plain -->
-> **In plain language:** Share fairly the benefits that come from using genetic resources (like plants and animals used for medicines or crops), and support appropriate access to them, as internationally agreed.
+> **In plain language:** Share fairly the benefits that come from using genetic resources (the genes of plants, animals and other living things), and support appropriate access to them, as internationally agreed.
 >
 > <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
 <!-- UN:END plain -->

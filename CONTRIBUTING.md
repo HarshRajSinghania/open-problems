@@ -17,8 +17,10 @@ By taking part you agree to follow our
 
 ## 2. Claim it
 
-Comment **`/assign`** on the issue, or write "I'd like to take this".
-A maintainer will assign you and set `status: in progress`.
+Comment **`/assign`** on the issue. A bot assigns you straight away and
+sets `status: in progress`. Changed your mind? Comment **`/unassign`**.
+(You can also just write "I'd like to take this" and a maintainer will
+assign you.)
 
 - One or two open tasks per person at a time, please.
 - If you go quiet for **14 days** we may free the task for someone else.

@@ -27,7 +27,7 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=11&Target=11.7"
 <!-- UN:END header -->
 
 <!-- UN:START plain -->
-> **In plain language:** By 2030, everyone should have access to safe, inclusive and accessible green and public spaces, such as parks and squares.
+> **In plain language:** By 2030, everyone should have access to safe, inclusive and accessible green and public spaces.
 >
 > **Who it is about:** Everyone, in particular women and children, older people and persons with disabilities.
 >
