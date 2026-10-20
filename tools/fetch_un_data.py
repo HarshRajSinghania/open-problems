@@ -11,7 +11,8 @@ the UN lists for the current database release), and for each series:
 
 * the World (area code 1) headline value: latest and earliest year;
 * the unit, as described by the API;
-* how many countries or areas report data for the series.
+* how many countries or areas report data for the series;
+* the link to the indicator's UN metadata PDF (only if it loads).
 
 Nothing is invented: every number in the snapshot is copied from an API
 response. import_un_sdgs.py turns the snapshot into the "Latest global
@@ -85,6 +86,37 @@ class Fetcher:
                 time.sleep(delay)
                 delay *= 2
         raise AssertionError("unreachable")
+
+
+def metadata_pdf(code: str) -> str:
+    """UN metadata PDF name, e.g. 6.3.1 -> Metadata-06-03-01.pdf."""
+    parts = [p.zfill(2) for p in code.split(".")]
+    return ("https://unstats.un.org/sdgs/metadata/files/"
+            f"Metadata-{'-'.join(parts)}.pdf")
+
+
+def link_ok(url: str, cache_dir: Path) -> bool:
+    """HEAD-check a link once; remember the answer in the cache."""
+    key = cache_dir / ("head-" + hashlib.sha1(url.encode()).hexdigest()
+                       + ".txt")
+    if key.exists():
+        return key.read_text() == "200"
+    status = "error"
+    for attempt in range(3):
+        try:
+            time.sleep(PAUSE)
+            req = urllib.request.Request(url, method="HEAD",
+                                         headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                status = str(resp.status)
+            break
+        except urllib.error.HTTPError as exc:
+            status = str(exc.code)
+            break
+        except (urllib.error.URLError, TimeoutError, ConnectionError):
+            time.sleep(5 * (attempt + 1))
+    key.write_text(status)
+    return status == "200"
 
 
 def countries_from_tree(tree: list) -> set[str]:
@@ -219,8 +251,10 @@ def run(cache: Path, max_series: int) -> int:
                 {str(a["geoAreaCode"]) for a in areas or []}
                 & country_codes)
             kept.append(entry)
+        pdf = metadata_pdf(code)
         out[code] = {
             "description": ind["description"].strip(),
+            "metadata_url": pdf if link_ok(pdf, cache) else None,
             "series_total": len(series),
             "series_with_world": len(with_world),
             "series": kept,

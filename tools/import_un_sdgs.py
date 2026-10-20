@@ -152,13 +152,21 @@ def fmt_value(raw) -> str:
     return f"{num:,.2f}".rstrip("0").rstrip(".") if abs(num) < 1e15 else text
 
 
+def series_link(s: dict) -> str:
+    url = ("https://unstats.un.org/sdgapi/v1/sdg/Series/Data?"
+           f"seriesCode={s['code']}&areaCode=1")
+    return f"[`{s['code']}`]({url})"
+
+
 def data_block(target: dict, snapshot: dict) -> str:
     rows = ["| Indicator | Data series (UN code) | Latest World value | "
             "Earlier World value | Unit |", "|---|---|---|---|---|"]
     with_world = 0
     for ind in target["indicators"]:
         info = snapshot["indicators"].get(ind["code"])
-        link = f"[{ind['code']}]({DATA_PORTAL}?indicator={ind['code']})"
+        meta = (info or {}).get("metadata_url") or target_metadata_url(
+            int(target["code"].split(".")[0]), target["code"])
+        link = f"[{ind['code']}]({meta})"
         if not info or not info["series"]:
             rows.append(f"| {link} | _No data series in the UN database "
                         "yet_ | – | – | – |")
@@ -176,11 +184,11 @@ def data_block(target: dict, snapshot: dict) -> str:
                              f"({w['earliest']['year']})")
                 else:
                     early = "–"
-                rows.append(f"| {link} | {desc}{extra} `{s['code']}` | "
+                rows.append(f"| {link} | {desc}{extra} {series_link(s)} | "
                             f"{latest} | {early} | {md_escape(w['unit'])} |")
             else:
                 n_c = s.get("countries_with_data", 0)
-                rows.append(f"| {link} | {desc} `{s['code']}` | _No World "
+                rows.append(f"| {link} | {desc} {series_link(s)} | _No World "
                             f"total_ ({n_c} countries or areas report "
                             "data) | – | – |")
     note = ("World figures (UN area code 1) copied from the "
@@ -188,7 +196,10 @@ def data_block(target: dict, snapshot: dict) -> str:
             f"{snapshot['database_release']}, retrieved "
             f"{snapshot['retrieved']} by `tools/fetch_un_data.py`. Up to "
             "three series per indicator. Earlier value = first year with "
-            "World data. Click an indicator for country data.")
+            "World data. Indicator links open the UN metadata (definition "
+            "and method); series codes open the raw World data from the UN "
+            "API. For country data, search the series in the "
+            f"[UN SDG data portal]({DATA_PORTAL}).")
     if not with_world:
         note = ("The UN publishes no World total for these series yet. "
                 + note)
