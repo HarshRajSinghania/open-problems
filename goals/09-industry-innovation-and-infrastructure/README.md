@@ -12,7 +12,17 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 9 is about strong infrastructure (roads, networks, factories), industry that includes everyone and is sustainable, and new ideas and technology. Manufacturing and trade are holding up, but trade tensions and instability are disrupting supply chains. The world spends more on research than in 2015, but many developing regions still spend less than 1 per cent of their economy on it. Mobile broadband reaches most people, but only 4 per cent of people in low-income countries have 5G.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔻 Regression · **[9.2 Sustainable/inclusive industrialization](9.2-sustainable-inclusive-industrialization/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+09%3A+industry+and+innovation%22+%229.2%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

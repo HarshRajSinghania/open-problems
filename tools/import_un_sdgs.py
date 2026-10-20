@@ -266,6 +266,11 @@ def goal_readme(goal: dict, report: dict) -> str:
         "14-year-old would understand. What is going wrong, who is "
         "affected, and where could software, data or design help?",
         "",
+        "## Where help is most needed",
+        "",
+        make_block("needed", "_Run `python tools/build_index.py`._",
+                   kind="INDEX"),
+        "",
         "## Why it matters",
         "",
         make_block("why", b["why"]),

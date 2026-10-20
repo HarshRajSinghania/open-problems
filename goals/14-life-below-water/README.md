@@ -12,7 +12,19 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 14 is about protecting the oceans, seas and coasts and using them sustainably, including stopping pollution. New global agreements on the high seas and on fishing subsidies have come into force. The decline of sustainable fish stocks has slowed since 2015, and places with good fisheries management do much better. Turning these agreements into real recovery needs action, money and better ocean research and observation.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔻 Regression · **[14.3 Ocean acidification](14.3-ocean-acidification/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+14%3A+life+below+water%22+%2214.3%22+in%3Atitle)
+- 🔻 Regression · **[14.4 Sustainable fishing](14.4-sustainable-fishing/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+14%3A+life+below+water%22+%2214.4%22+in%3Atitle)
+- 🔻 Regression · **[14.a Research capacity and marine technology](14.a-research-capacity-marine-technology/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+14%3A+life+below+water%22+%2214.a%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

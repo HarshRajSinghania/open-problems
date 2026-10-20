@@ -12,7 +12,19 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 6 is about safe water, toilets and hygiene for everyone, and looking after rivers, lakes and groundwater. By 2024 about three in four people had safely managed drinking water, but only 58 per cent had safely managed sanitation. People in the least developed countries are two to three times more likely to go without. More countries now measure their water, but that has not yet turned into enough action on the ground.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔴 Stagnation · **[6.3 Water quality](6.3-water-quality/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+06%3A+clean+water%22+%226.3%22+in%3Atitle)
+- 🔴 Stagnation · **[6.5 Transboundary water cooperation](6.5-transboundary-water-cooperation/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+06%3A+clean+water%22+%226.5%22+in%3Atitle)
+- 🔴 Stagnation · **[6.6 Water-related ecosystems](6.6-water-related-ecosystems/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+06%3A+clean+water%22+%226.6%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

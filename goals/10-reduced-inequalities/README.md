@@ -12,7 +12,21 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 10 is about reducing unfair gaps between people, and between countries, whether they are about income, sex, age, disability, race, religion or other things. In most countries the incomes of the poorest have grown faster than average, but progress is uneven. Nearly one in five people say they were discriminated against in the past year, and there is too little data to see the full picture. The share of people living as refugees has more than doubled since 2015.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔻 Regression · **[10.3 Eliminate discrimination](10.3-eliminate-discrimination/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+10%3A+reduced+inequalities%22+%2210.3%22+in%3Atitle)
+- 🔻 Regression · **[10.4 Fiscal and social protection policies](10.4-fiscal-social-protection-policies/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+10%3A+reduced+inequalities%22+%2210.4%22+in%3Atitle)
+- 🔴 Stagnation · **[10.6 Inclusive global governance](10.6-inclusive-global-governance/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+10%3A+reduced+inequalities%22+%2210.6%22+in%3Atitle)
+- 🔴 Stagnation · **[10.7 Safe migration and mobility](10.7-safe-migration-mobility/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+10%3A+reduced+inequalities%22+%2210.7%22+in%3Atitle)
+- 🔻 Regression · **[10.a Special and differential treatment (WTO)](10.a-special-differential-treatment/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+10%3A+reduced+inequalities%22+%2210.a%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

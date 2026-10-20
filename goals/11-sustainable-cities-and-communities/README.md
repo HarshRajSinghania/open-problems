@@ -12,7 +12,17 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 11 is about cities and towns that are open to everyone, safe, able to cope with shocks, and sustainable. The number of people living in slums has risen to 1.16 billion, as affordable housing becomes harder to find. More people can reach public transport, but services are not keeping up with demand. Only 17 per cent of city land is used for public open spaces such as parks.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔴 Stagnation · **[11.1 Housing and basic services](11.1-housing-basic-services/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+11%3A+sustainable+cities%22+%2211.1%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

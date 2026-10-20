@@ -12,7 +12,20 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 8 is about good jobs for everyone and an economy that keeps growing in a fair and sustainable way, without forced labour or child labour. Unemployment is low, but many people still work in informal, insecure jobs, and one in five young people is not in work, education or training. Child labour has fallen, yet 138 million children are still affected. Workers' rights to organise and bargain together have weakened in most regions.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔻 Regression · **[8.2 Economic productivity](8.2-economic-productivity/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+08%3A+decent+work%22+%228.2%22+in%3Atitle)
+- 🔻 Regression · **[8.3 Formalization of SMEs](8.3-formalization-smes/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+08%3A+decent+work%22+%228.3%22+in%3Atitle)
+- 🔴 Stagnation · **[8.4 Material resource efficiency](8.4-material-resource-efficiency/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+08%3A+decent+work%22+%228.4%22+in%3Atitle)
+- 🔻 Regression · **[8.8 Labour rights and safe working environment](8.8-labour-rights-safe-working/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+08%3A+decent+work%22+%228.8%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

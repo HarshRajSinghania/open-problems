@@ -12,7 +12,15 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 5 is about equal rights and chances for women and girls. That means ending discrimination, violence and harmful practices such as child marriage, and giving women an equal say in politics, work and public life. Women still hold only about a quarter of seats in parliaments and less than a third of manager jobs. Nearly one in three women has experienced violence, and nearly one in five girls marries before 18.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+No target in this goal is rated *stagnation* or *regression* by the UN in 2026. Every target below still needs research; pick any one.
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

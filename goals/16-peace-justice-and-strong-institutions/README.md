@@ -12,7 +12,21 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 16 is about peaceful and fair societies, justice for everyone, and institutions that work, are honest and include everyone. Murder rates fell by 14 per cent between 2015 and 2024, but violence is still high in some regions, and women and children suffer heavily. More countries have laws giving people access to information, but they are not always followed. Killings of human rights defenders have risen, and women and young people are under-represented in parliaments, public service and the courts.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔴 Stagnation · **[16.3 Justice for all](16.3-justice-for-all/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+16%3A+peace+and+justice%22+%2216.3%22+in%3Atitle)
+- 🔴 Stagnation · **[16.7 Inclusive decision-making](16.7-inclusive-decision-making/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+16%3A+peace+and+justice%22+%2216.7%22+in%3Atitle)
+- 🔴 Stagnation · **[16.8 Inclusive global governance](16.8-inclusive-global-governance/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+16%3A+peace+and+justice%22+%2216.8%22+in%3Atitle)
+- 🔴 Stagnation · **[16.10 Public access to information](16.10-public-access-information/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+16%3A+peace+and+justice%22+%2216.10%22+in%3Atitle)
+- 🔻 Regression · **[16.b Non-discriminatory laws](16.b-non-discriminatory-laws/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+16%3A+peace+and+justice%22+%2216.b%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

@@ -12,7 +12,17 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 1 is about making sure nobody lives in poverty, and that everyone has a basic standard of living and social protection. Progress on ending extreme poverty has stalled: about 1 in 10 people in the world still live in it. By 2030, four in five of those still in extreme poverty are expected to live in sub-Saharan Africa or in fragile and conflict-affected countries. More than half of all people now get at least one social protection benefit, but 3.8 billion people still get none, and aid aimed at reducing poverty has fallen back to 2015 levels.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔻 Regression · **[1.a Government spending on essential services](1.a-government-spending-essential-services/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+01%3A+no+poverty%22+%221.a%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

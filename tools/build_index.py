@@ -15,7 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from sdg_common import (  # noqa: E402
-    GOALS, GOALS_DIR, PROGRESS, ROOT, code_key, goal_slug, issues_url,
+    GOALS, GOALS_DIR, PROGRESS, ROOT, block_re, code_key, goal_slug, issues_url,
     md_escape, replace_block, split_front_matter,
 )
 
@@ -115,6 +115,54 @@ def root_table(all_problems: dict[int, list[tuple[Path, dict]]]) -> str:
     return "\n".join(rows)
 
 
+def is_needed(d: dict) -> bool:
+    return d.get("priority") == "high"
+
+
+def goal_needed(goal: int, problems: list[tuple[Path, dict]]) -> str:
+    rows = [
+        "Targets the UN rates as *stagnation* or *regression* in 2026 "
+        "(our `high` priority). Start here.",
+        "",
+    ]
+    picked = [(p, d) for p, d in problems if is_needed(d)]
+    for path, d in picked:
+        rel = f"{path.parent.name}/problem.md"
+        rows.append(
+            f"- {progress_cell(d.get('un_progress_2026', ''))} · "
+            f"**[{d['target']} {md_escape(str(d['title']))}]({rel})** · "
+            f"[open tasks]({issues_url(goal, str(d['target']))})")
+    if not picked:
+        rows = ["No target in this goal is rated *stagnation* or "
+                "*regression* by the UN in 2026. Every target below still "
+                "needs research; pick any one."]
+    return "\n".join(rows)
+
+
+def root_needed(all_problems: dict[int, list[tuple[Path, dict]]]) -> str:
+    rows = ["| Goal | Targets |", "|---|---|"]
+    total = 0
+    for n, problems in all_problems.items():
+        links = []
+        for path, d in problems:
+            if is_needed(d):
+                rel = (f"goals/{goal_slug(n)}/{path.parent.name}/problem.md")
+                emoji = PROGRESS.get(d.get("un_progress_2026", ""),
+                                     ("", ""))[0]
+                links.append(f"{emoji} [{d['target']} "
+                             f"{md_escape(str(d['title']))}]({rel})")
+        if links:
+            total += len(links)
+            rows.append(f"| **{n}** {GOALS[n]['short']} | "
+                        + " · ".join(links) + " |")
+    return "\n".join([
+        f"**{total} targets** where the UN sees *stagnation* (🔴) or "
+        "*regression* (🔻) in 2026. Each one needs research first.",
+        "",
+        *rows,
+    ])
+
+
 def render() -> dict[Path, str]:
     problems = load_problems()
     out: dict[Path, str] = {}
@@ -122,12 +170,19 @@ def render() -> dict[Path, str]:
         readme = GOALS_DIR / goal_slug(n) / "README.md"
         if not readme.exists():
             continue
-        out[readme] = replace_block(readme.read_text(encoding="utf-8"),
-                                    "targets", goal_table(n, items),
-                                    kind="INDEX")
+        text = replace_block(readme.read_text(encoding="utf-8"),
+                             "targets", goal_table(n, items), kind="INDEX")
+        if block_re("needed", "INDEX").search(text):
+            text = replace_block(text, "needed", goal_needed(n, items),
+                                 kind="INDEX")
+        out[readme] = text
     root = ROOT / "README.md"
-    out[root] = replace_block(root.read_text(encoding="utf-8"), "goals",
-                              root_table(problems), kind="INDEX")
+    text = replace_block(root.read_text(encoding="utf-8"), "goals",
+                         root_table(problems), kind="INDEX")
+    if block_re("needed", "INDEX").search(text):
+        text = replace_block(text, "needed", root_needed(problems),
+                             kind="INDEX")
+    out[root] = text
     return out
 
 

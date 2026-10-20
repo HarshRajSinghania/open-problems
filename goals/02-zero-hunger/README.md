@@ -12,7 +12,19 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 2 is about ending hunger and all forms of malnutrition, and growing food in ways that can last. Hunger has been slowly falling for several years, but conflict, extreme weather and cuts in aid threaten that progress. Fewer young children are too short or too thin for their age, yet in some regions progress has not kept up with population growth. Small farmers need help to grow more food, cope with climate change and earn a decent living.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔻 Regression · **[2.1 Undernourishment and food security](2.1-undernourishment-food-security/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+02%3A+zero+hunger%22+%222.1%22+in%3Atitle)
+- 🔴 Stagnation · **[2.2 Malnutrition](2.2-malnutrition/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+02%3A+zero+hunger%22+%222.2%22+in%3Atitle)
+- 🔻 Regression · **[2.a Investment in agriculture](2.a-investment-agriculture/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+02%3A+zero+hunger%22+%222.a%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

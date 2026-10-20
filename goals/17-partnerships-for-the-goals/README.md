@@ -12,7 +12,21 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 17 is about the money, technology, trade, data and partnerships needed to reach all the other goals, with more support for the poorest countries. Development aid fell by a record 23.1 per cent in 2025, and external debt has reached a record $8.9 trillion. Foreign investment has shifted towards richer economies. In the least developed countries, two in three people are still offline, and these countries have less than 2 per cent of world exports.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔴 Stagnation · **[17.1 Tax and other revenue collection](17.1-tax-other-revenue-collection/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+17%3A+partnerships%22+%2217.1%22+in%3Atitle)
+- 🔴 Stagnation · **[17.2 ODA commitment by developed countries](17.2-oda-commitment-developed-countries/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+17%3A+partnerships%22+%2217.2%22+in%3Atitle)
+- 🔴 Stagnation · **[17.12 Duty-free market access for LDCs](17.12-duty-free-market-access-ldcs/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+17%3A+partnerships%22+%2217.12%22+in%3Atitle)
+- 🔴 Stagnation · **[17.13 Global macroeconomic stability](17.13-global-macroeconomic-stability/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+17%3A+partnerships%22+%2217.13%22+in%3Atitle)
+- 🔻 Regression · **[17.15 Respect country’s policy space](17.15-policy-space/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+17%3A+partnerships%22+%2217.15%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

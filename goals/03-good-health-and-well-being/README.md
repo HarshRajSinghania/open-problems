@@ -12,7 +12,15 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 3 is about good health for everyone, at every age. Fewer mothers and young children are dying, and HIV infections, AIDS deaths and tuberculosis deaths are going down. But the number of mothers who die is still almost three times the goal, and progress is very uneven. Cuts in aid now put health services at risk in poorer countries, where people face rising out-of-pocket costs.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+No target in this goal is rated *stagnation* or *regression* by the UN in 2026. Every target below still needs research; pick any one.
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

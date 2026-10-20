@@ -12,7 +12,21 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 4 is about good-quality education for everyone, and chances to keep learning all through life. More children finish school than in 2015, but 273 million children and young people are still out of school, and many who are in school do not learn to read or do maths well. Many schools, especially in the poorest countries, still lack electricity, toilets, internet or access for disabled students. Many people also lack the digital skills they need online.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔴 Stagnation · **[4.1 Effective learning outcomes](4.1-effective-learning-outcomes/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+04%3A+education%22+%224.1%22+in%3Atitle)
+- 🔴 Stagnation · **[4.2 Early childhood education](4.2-early-childhood-education/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+04%3A+education%22+%224.2%22+in%3Atitle)
+- 🔴 Stagnation · **[4.3 TVET and tertiary education](4.3-tvet-tertiary-education/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+04%3A+education%22+%224.3%22+in%3Atitle)
+- 🔴 Stagnation · **[4.6 Adult literacy and numeracy](4.6-adult-literacy-numeracy/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+04%3A+education%22+%224.6%22+in%3Atitle)
+- 🔴 Stagnation · **[4.c Qualified teachers](4.c-qualified-teachers/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+04%3A+education%22+%224.c%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

@@ -12,7 +12,20 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 15 is about protecting forests, land and wildlife: stopping deforestation, restoring damaged land, fighting desertification and ending the loss of species. Countries are passing more laws and setting more targets to protect nature. But more than 48,600 species face extinction, and 41 million hectares of forest have been lost since 2015. Many important places for wildlife may not even be identified yet, so they may not be protected.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔴 Stagnation · **[15.1 Terrestrial and freshwater ecosystems](15.1-terrestrial-freshwater-ecosystems/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+15%3A+life+on+land%22+%2215.1%22+in%3Atitle)
+- 🔻 Regression · **[15.3 Desertification and land degradation](15.3-desertification-land-degradation/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+15%3A+life+on+land%22+%2215.3%22+in%3Atitle)
+- 🔴 Stagnation · **[15.4 Conservation of mountain ecosystems](15.4-conservation-mountain-ecosystems/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+15%3A+life+on+land%22+%2215.4%22+in%3Atitle)
+- 🔻 Regression · **[15.5 Loss of biodiversity](15.5-loss-biodiversity/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+15%3A+life+on+land%22+%2215.5%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

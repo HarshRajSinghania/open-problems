@@ -12,7 +12,15 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 7 is about energy that everyone can afford and that is reliable, clean and modern. More people than ever have electricity (92 per cent in 2024) and clean ways to cook (75 per cent), but sub-Saharan Africa is being left behind. Renewable energy is growing fast for electricity, but slowly for heating and transport. Developing countries are adding renewable power faster than richer countries.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+No target in this goal is rated *stagnation* or *regression* by the UN in 2026. Every target below still needs research; pick any one.
+<!-- INDEX:END needed -->
 
 ## Why it matters
 

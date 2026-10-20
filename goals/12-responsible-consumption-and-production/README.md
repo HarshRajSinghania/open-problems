@@ -12,7 +12,21 @@
 
 ## In plain language
 
-> **Help wanted:** explain this goal in three or four sentences a 14-year-old would understand. What is going wrong, who is affected, and where could software, data or design help?
+Goal 12 is about using less and wasting less: making and buying things in ways the planet can sustain. More countries have plans for this, but the world used 25 per cent more materials in 2022 than in 2015. Over 1.05 billion tons of food are wasted by consumers each year, and less than a quarter of electronic waste is formally recycled. Fossil fuel subsidies, worth $921 billion in 2024, make polluting activities cheaper.
+
+<sub>Community-written summary of the UN goal description above and the UN key messages quoted under [Why it matters](#why-it-matters). Check it against them; [suggest a fix](../../CONTRIBUTING.md).</sub>
+
+## Where help is most needed
+
+<!-- INDEX:START needed -->
+Targets the UN rates as *stagnation* or *regression* in 2026 (our `high` priority). Start here.
+
+- 🔴 Stagnation · **[12.2 Sustainable use of natural resources](12.2-sustainable-use-natural-resources/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+12%3A+responsible+consumption%22+%2212.2%22+in%3Atitle)
+- 🔻 Regression · **[12.3 Food waste and losses](12.3-food-waste-losses/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+12%3A+responsible+consumption%22+%2212.3%22+in%3Atitle)
+- 🔻 Regression · **[12.5 Reduction in waste generation](12.5-reduction-waste-generation/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+12%3A+responsible+consumption%22+%2212.5%22+in%3Atitle)
+- 🔻 Regression · **[12.b Sustainable tourism monitoring](12.b-sustainable-tourism-monitoring/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+12%3A+responsible+consumption%22+%2212.b%22+in%3Atitle)
+- 🔻 Regression · **[12.c Fossil fuel subsidies](12.c-fossil-fuel-subsidies/problem.md)** · [open tasks](https://github.com/harrythentrepreneur/open-problems/issues?q=is%3Aissue+is%3Aopen+label%3A%22goal+12%3A+responsible+consumption%22+%2212.c%22+in%3Atitle)
+<!-- INDEX:END needed -->
 
 ## Why it matters
 
