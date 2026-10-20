@@ -1,14 +1,20 @@
-# Open Problems
+<p align="center">
+  <img src="assets/banner.svg" alt="Open Problems: the UN Sustainable Development Goals as open-source tasks" width="900">
+</p>
 
-**A community map of the UN Sustainable Development Goals, turned into
-open-source tasks.** Pick a problem, pick a task, ship a fix.
+<p align="center">
+  <b>A community map of the UN Sustainable Development Goals, turned into open-source tasks.</b><br>
+  Pick a problem, pick a task, ship a fix.
+</p>
 
-[![Check problems](https://github.com/harrythentrepreneur/open-problems/actions/workflows/check-problems.yml/badge.svg)](https://github.com/harrythentrepreneur/open-problems/actions/workflows/check-problems.yml)
-![Goals](https://img.shields.io/badge/goals-17-19486A?style=flat-square)
-![Targets](https://img.shields.io/badge/targets-169-26BDE2?style=flat-square)
-![Indicators](https://img.shields.io/badge/indicators-251-4C9F38?style=flat-square)
-[![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue?style=flat-square)](LICENSE)
-[![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC_BY_4.0-lightgrey?style=flat-square)](LICENSE-docs.md)
+<p align="center">
+  <a href="https://github.com/harrythentrepreneur/open-problems/actions/workflows/check-problems.yml"><img src="https://github.com/harrythentrepreneur/open-problems/actions/workflows/check-problems.yml/badge.svg" alt="Check problems"></a>
+  <img src="https://img.shields.io/badge/goals-17-19486A?style=flat-square" alt="17 goals">
+  <img src="https://img.shields.io/badge/targets-169-26BDE2?style=flat-square" alt="169 targets">
+  <img src="https://img.shields.io/badge/indicators-251-4C9F38?style=flat-square" alt="251 indicators">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/code-Apache--2.0-blue?style=flat-square" alt="Code: Apache-2.0"></a>
+  <a href="LICENSE-docs.md"><img src="https://img.shields.io/badge/docs-CC_BY_4.0-lightgrey?style=flat-square" alt="Docs: CC BY 4.0"></a>
+</p>
 
 In 2015 every UN member state agreed 17 goals to reach by 2030. The UN's own
 2026 report says most of the 169 targets are off track. Many of them need
@@ -24,21 +30,42 @@ Goal (17)          e.g. Goal 6  Clean water and sanitation
      ├─ Indicator  e.g. 6.3.2   Share of water bodies with good quality
      │             (how the UN measures progress)
      └─ Tasks      GitHub issues: research, data, design, code, writing
-                   -> research/  -> solution/  -> handed over to people who use it
 ```
 
-Every target folder has the same shape:
+Each problem moves through the same steps, from *suggested* to *handed
+over*. See the [problem lifecycle](how-we-work/problem-lifecycle.md)
+(with a diagram).
+
+<details>
+<summary><b>What is inside a target folder?</b></summary>
 
 ```text
 goals/06-clean-water-and-sanitation/6.3-water-quality/
-├── problem.md          the problem, UN indicators, what exists, what "solved" means
+├── problem.md          the problem, UN indicators, latest numbers, what exists, what "solved" means
 ├── research/           evidence, notes, datasets
 └── solution/           code and docs, once a solution is scoped
 ```
 
-The UN parts (target text, indicators, progress) are generated from UN data
-by [`tools/import_un_sdgs.py`](tools/import_un_sdgs.py). Everything else is
-written by people like you.
+The UN parts (target text, indicators, progress, latest World numbers) are
+generated from UN data by [`tools/`](tools/). Everything else is written by
+people like you.
+
+</details>
+
+<details>
+<summary><b>Glossary: words we use</b></summary>
+
+| Word | Meaning |
+|---|---|
+| **Goal** | One of the 17 big aims the UN agreed in 2015, such as "Zero hunger". |
+| **Target** | A specific aim under a goal, such as 6.3 "improve water quality". There are 169. Here, one target = one problem folder. |
+| **Indicator** | A number the UN uses to measure a target, such as 6.3.2 "share of water bodies with good water quality". There are 251 unique ones. |
+| **Tier** | How mature an indicator is. Tier 1: agreed method and regular data from most countries. Tier 2: agreed method, but patchy data. |
+| **UN progress** | The UN's own 2026 rating of each target, from "on track" to "regression" (*SDG Report 2026*, pp.44-45). |
+| **Priority** | Our view of where help is most needed. It starts from UN progress: stagnation or regression = `high`. |
+| **Problem owner** | A real organisation or community that has the problem and will use and keep running the solution. We look for one before we build. |
+
+</details>
 
 ## The 17 goals
 
@@ -71,6 +98,43 @@ Indicators are counted once even when the UN lists them under more than one targ
 Source for UN progress: "SDG progress by target", *The Sustainable
 Development Goals Report 2026*, pp.44-45
 ([PDF](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf)).
+
+## 🔥 Most needed right now
+
+<details open>
+<summary>Targets where the UN sees no progress or things getting worse</summary>
+
+<!-- INDEX:START needed -->
+**45 targets** where the UN sees *stagnation* (🔴) or *regression* (🔻) in 2026. Each one needs research first.
+
+| Goal | Targets |
+|---|---|
+| **1** No poverty | 🔻 [1.a Government spending on essential services](goals/01-no-poverty/1.a-government-spending-essential-services/problem.md) |
+| **2** Zero hunger | 🔻 [2.1 Undernourishment and food security](goals/02-zero-hunger/2.1-undernourishment-food-security/problem.md) · 🔴 [2.2 Malnutrition](goals/02-zero-hunger/2.2-malnutrition/problem.md) · 🔻 [2.a Investment in agriculture](goals/02-zero-hunger/2.a-investment-agriculture/problem.md) |
+| **4** Quality education | 🔴 [4.1 Effective learning outcomes](goals/04-quality-education/4.1-effective-learning-outcomes/problem.md) · 🔴 [4.2 Early childhood education](goals/04-quality-education/4.2-early-childhood-education/problem.md) · 🔴 [4.3 TVET and tertiary education](goals/04-quality-education/4.3-tvet-tertiary-education/problem.md) · 🔴 [4.6 Adult literacy and numeracy](goals/04-quality-education/4.6-adult-literacy-numeracy/problem.md) · 🔴 [4.c Qualified teachers](goals/04-quality-education/4.c-qualified-teachers/problem.md) |
+| **6** Clean water and sanitation | 🔴 [6.3 Water quality](goals/06-clean-water-and-sanitation/6.3-water-quality/problem.md) · 🔴 [6.5 Transboundary water cooperation](goals/06-clean-water-and-sanitation/6.5-transboundary-water-cooperation/problem.md) · 🔴 [6.6 Water-related ecosystems](goals/06-clean-water-and-sanitation/6.6-water-related-ecosystems/problem.md) |
+| **8** Decent work and economic growth | 🔻 [8.2 Economic productivity](goals/08-decent-work-and-economic-growth/8.2-economic-productivity/problem.md) · 🔻 [8.3 Formalization of SMEs](goals/08-decent-work-and-economic-growth/8.3-formalization-smes/problem.md) · 🔴 [8.4 Material resource efficiency](goals/08-decent-work-and-economic-growth/8.4-material-resource-efficiency/problem.md) · 🔻 [8.8 Labour rights and safe working environment](goals/08-decent-work-and-economic-growth/8.8-labour-rights-safe-working/problem.md) |
+| **9** Industry, innovation and infrastructure | 🔻 [9.2 Sustainable/inclusive industrialization](goals/09-industry-innovation-and-infrastructure/9.2-sustainable-inclusive-industrialization/problem.md) |
+| **10** Reduced inequalities | 🔻 [10.3 Eliminate discrimination](goals/10-reduced-inequalities/10.3-eliminate-discrimination/problem.md) · 🔻 [10.4 Fiscal and social protection policies](goals/10-reduced-inequalities/10.4-fiscal-social-protection-policies/problem.md) · 🔴 [10.6 Inclusive global governance](goals/10-reduced-inequalities/10.6-inclusive-global-governance/problem.md) · 🔴 [10.7 Safe migration and mobility](goals/10-reduced-inequalities/10.7-safe-migration-mobility/problem.md) · 🔻 [10.a Special and differential treatment (WTO)](goals/10-reduced-inequalities/10.a-special-differential-treatment/problem.md) |
+| **11** Sustainable cities and communities | 🔴 [11.1 Housing and basic services](goals/11-sustainable-cities-and-communities/11.1-housing-basic-services/problem.md) |
+| **12** Responsible consumption and production | 🔴 [12.2 Sustainable use of natural resources](goals/12-responsible-consumption-and-production/12.2-sustainable-use-natural-resources/problem.md) · 🔻 [12.3 Food waste and losses](goals/12-responsible-consumption-and-production/12.3-food-waste-losses/problem.md) · 🔻 [12.5 Reduction in waste generation](goals/12-responsible-consumption-and-production/12.5-reduction-waste-generation/problem.md) · 🔻 [12.b Sustainable tourism monitoring](goals/12-responsible-consumption-and-production/12.b-sustainable-tourism-monitoring/problem.md) · 🔻 [12.c Fossil fuel subsidies](goals/12-responsible-consumption-and-production/12.c-fossil-fuel-subsidies/problem.md) |
+| **14** Life below water | 🔻 [14.3 Ocean acidification](goals/14-life-below-water/14.3-ocean-acidification/problem.md) · 🔻 [14.4 Sustainable fishing](goals/14-life-below-water/14.4-sustainable-fishing/problem.md) · 🔻 [14.a Research capacity and marine technology](goals/14-life-below-water/14.a-research-capacity-marine-technology/problem.md) |
+| **15** Life on land | 🔴 [15.1 Terrestrial and freshwater ecosystems](goals/15-life-on-land/15.1-terrestrial-freshwater-ecosystems/problem.md) · 🔻 [15.3 Desertification and land degradation](goals/15-life-on-land/15.3-desertification-land-degradation/problem.md) · 🔴 [15.4 Conservation of mountain ecosystems](goals/15-life-on-land/15.4-conservation-mountain-ecosystems/problem.md) · 🔻 [15.5 Loss of biodiversity](goals/15-life-on-land/15.5-loss-biodiversity/problem.md) |
+| **16** Peace, justice and strong institutions | 🔴 [16.3 Justice for all](goals/16-peace-justice-and-strong-institutions/16.3-justice-for-all/problem.md) · 🔴 [16.7 Inclusive decision-making](goals/16-peace-justice-and-strong-institutions/16.7-inclusive-decision-making/problem.md) · 🔴 [16.8 Inclusive global governance](goals/16-peace-justice-and-strong-institutions/16.8-inclusive-global-governance/problem.md) · 🔴 [16.10 Public access to information](goals/16-peace-justice-and-strong-institutions/16.10-public-access-information/problem.md) · 🔻 [16.b Non-discriminatory laws](goals/16-peace-justice-and-strong-institutions/16.b-non-discriminatory-laws/problem.md) |
+| **17** Partnerships for the Goals | 🔴 [17.1 Tax and other revenue collection](goals/17-partnerships-for-the-goals/17.1-tax-other-revenue-collection/problem.md) · 🔴 [17.2 ODA commitment by developed countries](goals/17-partnerships-for-the-goals/17.2-oda-commitment-developed-countries/problem.md) · 🔴 [17.12 Duty-free market access for LDCs](goals/17-partnerships-for-the-goals/17.12-duty-free-market-access-ldcs/problem.md) · 🔴 [17.13 Global macroeconomic stability](goals/17-partnerships-for-the-goals/17.13-global-macroeconomic-stability/problem.md) · 🔻 [17.15 Respect country’s policy space](goals/17-partnerships-for-the-goals/17.15-policy-space/problem.md) |
+<!-- INDEX:END needed -->
+
+</details>
+
+## Who we need
+
+You do not need to be a programmer. We need:
+
+- **Researchers** to find what already exists, and the latest numbers, with sources.
+- **Data people** to find, clean and check open datasets.
+- **Developers** to build tools once a problem is scoped.
+- **Designers and writers** to make things clear for the people who use them.
+- **People with field experience** (NGOs, agencies, communities) to tell us what is real, and to become problem owners.
 
 ## Start here
 

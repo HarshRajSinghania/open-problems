@@ -3,11 +3,29 @@
 Every `problem.md` has a `status` in its front matter. It moves forward
 like this:
 
+```mermaid
+flowchart LR
+    S[Suggested] --> R[Researching]
+    R --> B[Ready to build]
+    B --> W[Being built]
+    W --> D[Solved]
+    D --> H[Handed over]
+    S -.-> P[Paused<br/>with a reason]
+    R -.-> P
+    B -.-> P
+    W -.-> P
+    P -.-> R
+```
+
+<details><summary>Text version</summary>
+
 ```text
 Suggested ──> Researching ──> Ready to build ──> Being built ──> Solved ──> Handed over
      │              │                │                 │
      └──────────────┴────────────────┴─────────────────┴──> Paused (with a reason)
 ```
+
+</details>
 
 | Status (`status:` value) | Meaning | To move on you need |
 |---|---|---|
