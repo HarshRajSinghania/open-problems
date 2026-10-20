@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=9&Target=9.c"
 **Goal 9: Industry, innovation and infrastructure** · UN progress 2026: 🟢 On track or target met · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Greatly increase access to information and communications technology, and work to give everyone in the least developed countries affordable internet access by 2020.
+>
+> **Who it is about:** People in the least developed countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

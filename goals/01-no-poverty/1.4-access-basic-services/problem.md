@@ -26,6 +26,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.4"
 **Goal 1: No poverty** · UN progress 2026: 🟡 Moderate progress, acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, everyone should have equal rights to money and resources and access to basic services. That includes owning land and property, inheriting, using natural resources and new technology, and using banks and small loans.
+>
+> **Who it is about:** All men and women, especially poor and vulnerable people.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

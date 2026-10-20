@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=14&Target=14.7"
 **Goal 14: Life below water** · UN progress 2026: ⚪ Insufficient data · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, increase the economic benefits that small island developing States and least developed countries get from using ocean resources sustainably, including through well-managed fishing, fish farming and tourism.
+>
+> **Who it is about:** Small island developing States and least developed countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

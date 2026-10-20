@@ -26,6 +26,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=9&Target=9.1"
 **Goal 9: Industry, innovation and infrastructure** · UN progress 2026: 🟡 Moderate progress, acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Build good, reliable, sustainable and resilient infrastructure - including across borders - to support the economy and people's well-being, with affordable and fair access for everyone.
+>
+> **Who it is about:** Everyone.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

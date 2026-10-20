@@ -26,6 +26,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.4"
 **Goal 12: Responsible consumption and production** · UN progress 2026: 🟠 Marginal progress, significant acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2020, handle chemicals and all waste safely for the environment through their whole life cycle, as international agreements require, and greatly reduce how much is released into air, water and soil, to protect health and nature.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

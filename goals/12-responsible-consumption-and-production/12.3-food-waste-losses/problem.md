@@ -23,6 +23,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.3"
 **Goal 12: Responsible consumption and production** · UN progress 2026: 🔻 Regression · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, halve the food each person wastes in shops and at home worldwide, and reduce food lost along the way from farm to shop, including after harvest.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=13&Target=13.b"
 **Goal 13: Climate action** · UN progress 2026: ⚪ Insufficient data · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Help least developed countries and small island developing States get better at planning and managing climate change action, including by focusing on women, young people and local and marginalised communities.
+>
+> **Who it is about:** Least developed countries and small island developing States; women, youth and local and marginalised communities.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

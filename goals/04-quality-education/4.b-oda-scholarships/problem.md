@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.b"
 **Goal 4: Quality education** · UN progress 2026: 🟡 Moderate progress, acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2020, greatly increase the number of scholarships for students from developing countries to study in higher education - including vocational, ICT, technical, engineering and science programmes - in other countries.
+>
+> **Who it is about:** Students from developing countries, especially least developed countries, small island developing States and African countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

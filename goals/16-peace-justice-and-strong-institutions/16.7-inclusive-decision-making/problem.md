@@ -26,6 +26,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.7"
 **Goal 16: Peace, justice and strong institutions** · UN progress 2026: 🔴 Stagnation · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Make sure decisions at every level respond to people's needs, include everyone, let people take part, and represent them fairly.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

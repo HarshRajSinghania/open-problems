@@ -23,6 +23,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=10&Target=10.3"
 **Goal 10: Reduced inequalities** · UN progress 2026: 🔻 Regression · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Make sure everyone has equal opportunities and reduce unequal outcomes, including by removing discriminatory laws, policies and practices and promoting fair laws, policies and action.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

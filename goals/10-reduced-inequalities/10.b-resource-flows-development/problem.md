@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=10&Target=10.b"
 **Goal 10: Reduced inequalities** · UN progress 2026: 🟢 On track or target met · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Encourage aid and money flows, including foreign investment, to the countries that need them most, in line with their own national plans.
+>
+> **Who it is about:** Least developed countries, African countries, small island developing States and landlocked developing countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

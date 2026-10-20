@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.11"
 **Goal 17: Partnerships for the Goals** · UN progress 2026: 🟠 Marginal progress, significant acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Greatly increase exports from developing countries, aiming to double the least developed countries' share of world exports by 2020.
+>
+> **Who it is about:** Developing countries, especially least developed countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

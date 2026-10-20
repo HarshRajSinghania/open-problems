@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.3"
 **Goal 1: No poverty** · UN progress 2026: 🟠 Marginal progress, significant acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Every country should set up safety nets - such as pensions, child benefits or unemployment support - that suit its situation. By 2030 most poor and vulnerable people should be covered.
+>
+> **Who it is about:** Poor and vulnerable people.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

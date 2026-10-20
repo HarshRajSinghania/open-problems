@@ -7,6 +7,8 @@ here makes the build reproducible and shows exactly what we used.
 |---|---|---|---|
 | [`un-sdg-framework.json`](un-sdg-framework.json) | [UN SDG API](https://unstats.un.org/sdgapi/v1/sdg/Goal/List?includechildren=true), UN Statistics Division | 2026-10-20 | 17 goals, 169 targets, 251 indicators with tier. Trimmed: data series removed. |
 | [`sdg-report-2026.json`](sdg-report-2026.json) | [The Sustainable Development Goals Report 2026](https://unstats.un.org/sdgs/report/2026/The-Sustainable-Development-Goals-Report-2026.pdf) | 2026-10-20 | Goal key messages (quoted, with page), target short titles and the UN progress status of each target (chart on pp.44-45). |
+| [`plain-language.yml`](plain-language.yml) | Community-written | – | One plain-English summary per target (and who it is about). Must restate the official target text only: no new facts or numbers. Shown at the top of each `problem.md`. |
+| `un-series-world-latest.json` | [UN SDG API](https://unstats.un.org/sdgapi/v1/sdg/), `Indicator/Data` with `areaCode=1` | see file | Latest and earliest World value of up to 3 data series per indicator, made by [`tools/fetch_un_data.py`](../tools/fetch_un_data.py). Shown as "Latest global numbers" in each `problem.md`. |
 
 ## How the progress status was extracted
 

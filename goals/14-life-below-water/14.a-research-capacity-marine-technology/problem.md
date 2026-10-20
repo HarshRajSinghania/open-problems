@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=14&Target=14.a"
 **Goal 14: Life below water** · UN progress 2026: 🔻 Regression · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Increase scientific knowledge, build research capacity and share ocean technology, following agreed international guidelines, to improve ocean health and help marine life support developing countries' development.
+>
+> **Who it is about:** Developing countries, especially small island developing States and least developed countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

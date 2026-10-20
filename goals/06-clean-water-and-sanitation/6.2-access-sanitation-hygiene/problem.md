@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=6&Target=6.2"
 **Goal 6: Clean water and sanitation** · UN progress 2026: 🟡 Moderate progress, acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, everyone should have fair access to decent toilets and hygiene (like handwashing), and nobody should have to go to the toilet in the open.
+>
+> **Who it is about:** Everyone, with special attention to women and girls and people in vulnerable situations.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

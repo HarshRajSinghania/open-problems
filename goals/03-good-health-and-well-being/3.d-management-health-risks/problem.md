@@ -26,6 +26,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.d"
 **Goal 3: Good health and well-being** · UN progress 2026: 🟠 Marginal progress, significant acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Help all countries, especially developing countries, get better at spotting health threats early, lowering risks and managing national and global health emergencies.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

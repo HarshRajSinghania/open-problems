@@ -23,6 +23,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.b"
 **Goal 2: Zero hunger** · UN progress 2026: 🟢 On track or target met · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Fix and prevent unfair trade rules in world farm markets, including by ending all subsidies for farm exports and similar measures, as agreed in the Doha trade talks.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

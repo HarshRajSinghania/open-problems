@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.b"
 **Goal 1: No poverty** · UN progress 2026: ⚪ Insufficient data · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Make good policies at national, regional and international level that put poor people and gender equality first, so more money goes into ending poverty, faster.
+>
+> **Who it is about:** People living in poverty.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

@@ -26,6 +26,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.5"
 **Goal 2: Zero hunger** · UN progress 2026: 🟠 Marginal progress, significant acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2020, protect the variety of seeds, crops and farm animals and their wild relatives, including through well-run seed and plant banks. Share the benefits of using these genetic resources and related traditional knowledge fairly.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

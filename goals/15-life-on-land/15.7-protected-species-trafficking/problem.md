@@ -23,6 +23,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=15&Target=15.7"
 **Goal 15: Life on land** · UN progress 2026: ⚪ Insufficient data · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Act urgently to end poaching and trafficking of protected plants and animals, and tackle both the demand for and the supply of illegal wildlife products.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

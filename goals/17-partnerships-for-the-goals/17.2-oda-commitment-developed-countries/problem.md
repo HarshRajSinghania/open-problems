@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.2"
 **Goal 17: Partnerships for the Goals** · UN progress 2026: 🔴 Stagnation · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Developed countries should fully keep their promises on development aid. Many have promised 0.7 per cent of their national income (GNI) as aid to developing countries, and 0.15-0.20 per cent to the least developed countries. Donors are encouraged to aim for at least 0.20 per cent to the least developed countries.
+>
+> **Who it is about:** Developing countries, especially least developed countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

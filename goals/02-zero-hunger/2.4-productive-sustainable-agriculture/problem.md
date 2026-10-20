@@ -23,6 +23,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.4"
 **Goal 2: Zero hunger** · UN progress 2026: 🟡 Moderate progress, acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, food should be produced in ways that last. Farming should grow more food while protecting nature, coping with climate change, extreme weather, drought, floods and other disasters, and steadily improving land and soil.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

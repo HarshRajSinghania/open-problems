@@ -26,6 +26,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.a"
 **Goal 2: Zero hunger** · UN progress 2026: 🔻 Regression · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Invest more - including through international cooperation - in rural roads and services, farm research and advice, new technology, and plant and animal gene banks, so developing countries can grow more food.
+>
+> **Who it is about:** Developing countries, especially the least developed countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

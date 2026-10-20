@@ -29,6 +29,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=3&Target=3.b"
 **Goal 3: Good health and well-being** · UN progress 2026: 🟡 Moderate progress, acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Support research on vaccines and medicines for diseases that mainly affect developing countries, and give people access to affordable medicines and vaccines. Developing countries may fully use the flexibilities in global patent rules to protect public health.
+>
+> **Who it is about:** People in developing countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

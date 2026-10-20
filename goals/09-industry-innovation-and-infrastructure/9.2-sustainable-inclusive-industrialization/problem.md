@@ -26,6 +26,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=9&Target=9.2"
 **Goal 9: Industry, innovation and infrastructure** · UN progress 2026: 🔻 Regression · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Grow industry in ways that include everyone and are sustainable. By 2030, raise industry's share of jobs and of the economy in line with each country's situation, and double it in the least developed countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

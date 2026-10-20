@@ -23,6 +23,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import re
 import sys
 import urllib.request
 from pathlib import Path
@@ -30,15 +31,18 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_index  # noqa: E402
 from sdg_common import (  # noqa: E402
-    FRAMEWORK_FILE, GOALS, GOALS_DIR, PRIORITY_FROM_PROGRESS, PROGRESS,
+    DATA_DIR, FRAMEWORK_FILE, GOALS, GOALS_DIR, PRIORITY_FROM_PROGRESS, PROGRESS,
     REPORT_FILE, REPORT_URL, block_re, code_key, dump_front_matter,
-    goal_slug, issues_url, load_json, make_block, new_issue_url,
+    goal_slug, issues_url, load_json, make_block, md_escape, new_issue_url,
     replace_block, split_front_matter, target_metadata_url, target_slug,
     write_if_changed,
 )
 
 API_URL = ("https://unstats.un.org/sdgapi/v1/sdg/Goal/List"
            "?includechildren=true")
+PLAIN_FILE = DATA_DIR / "plain-language.yml"
+SERIES_FILE = DATA_DIR / "un-series-world-latest.json"
+DATA_PORTAL = "https://unstats.un.org/sdgs/dataportal/database"
 UN_FIELDS = ["goal", "goal_title", "target", "un_target_text", "indicators",
              "un_progress_2026", "source_url"]
 
@@ -92,6 +96,114 @@ def fetch(raw_path: str | None) -> None:
         json.dumps(data, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8")
     print(f"wrote {FRAMEWORK_FILE.relative_to(GOALS_DIR.parent)}")
+
+
+# --------------------------------------------------------------------------
+# Optional inputs: plain-language summaries and World numbers
+# --------------------------------------------------------------------------
+def load_plain(path: Path = PLAIN_FILE) -> dict[str, dict[str, str]]:
+    """Parse data/plain-language.yml (a tiny YAML subset, no PyYAML)."""
+    out: dict[str, dict[str, str]] = {}
+    if not path.exists():
+        return out
+    current = None
+    for n, line in enumerate(path.read_text(encoding="utf-8").split("\n"), 1):
+        if not line.strip() or line.lstrip().startswith("#"):
+            continue
+        top = re.match(r'^"([0-9]+\.[0-9a-z]+)":\s*$', line)
+        sub = re.match(r'^  ([a-z_]+): (".*")\s*$', line)
+        if top:
+            current = top.group(1)
+            out[current] = {}
+        elif sub and current:
+            out[current][sub.group(1)] = json.loads(sub.group(2))
+        else:
+            raise ValueError(f"{path.name} line {n}: cannot parse {line!r}")
+    return out
+
+
+def load_series(path: Path = SERIES_FILE) -> dict | None:
+    return load_json(path) if path.exists() else None
+
+
+def plain_block(code: str, entry: dict[str, str] | None) -> str:
+    edit = (f"[Edit](../../../data/plain-language.yml) · "
+            "community-written, not official UN text. Check it against "
+            "the [UN target](#the-problem-un-target) below.")
+    if not entry or not entry.get("summary"):
+        return ("> **In plain language:** _not written yet._ " + edit)
+    lines = [f"> **In plain language:** {entry['summary']}"]
+    if entry.get("who"):
+        lines += [">", f"> **Who it is about:** {entry['who']}"]
+    lines += [">", f"> <sub>{edit}</sub>"]
+    return "\n".join(lines)
+
+
+def fmt_value(raw) -> str:
+    text = str(raw).strip()
+    try:
+        num = float(text)
+    except ValueError:
+        return md_escape(text)
+    if num.is_integer() and abs(num) >= 1000:
+        return f"{int(num):,}"
+    if num.is_integer():
+        return str(int(num))
+    return f"{num:,.2f}".rstrip("0").rstrip(".") if abs(num) < 1e15 else text
+
+
+def data_block(target: dict, snapshot: dict) -> str:
+    rows = ["| Indicator | Data series (UN code) | Latest World value | "
+            "Earlier World value | Unit |", "|---|---|---|---|---|"]
+    with_world = 0
+    for ind in target["indicators"]:
+        info = snapshot["indicators"].get(ind["code"])
+        link = f"[{ind['code']}]({DATA_PORTAL}?indicator={ind['code']})"
+        if not info or not info["series"]:
+            rows.append(f"| {link} | _No data series in the UN database "
+                        "yet_ | – | – | – |")
+            continue
+        for s in info["series"]:
+            desc = md_escape(s["description"])
+            w = s.get("world")
+            if w:
+                with_world += 1
+                extra = (f" ({md_escape('; '.join(w['breakdown']))})"
+                         if w.get("breakdown") else "")
+                latest = f"**{fmt_value(w['latest']['value'])}** ({w['latest']['year']})"
+                if w["earliest"]["year"] != w["latest"]["year"]:
+                    early = (f"{fmt_value(w['earliest']['value'])} "
+                             f"({w['earliest']['year']})")
+                else:
+                    early = "–"
+                rows.append(f"| {link} | {desc}{extra} `{s['code']}` | "
+                            f"{latest} | {early} | {md_escape(w['unit'])} |")
+            else:
+                n_c = s.get("countries_with_data", 0)
+                rows.append(f"| {link} | {desc} `{s['code']}` | _No World "
+                            f"total_ ({n_c} countries or areas report "
+                            "data) | – | – |")
+    note = ("World figures (UN area code 1) copied from the "
+            f"[UN SDG Global Database]({DATA_PORTAL}), release "
+            f"{snapshot['database_release']}, retrieved "
+            f"{snapshot['retrieved']} by `tools/fetch_un_data.py`. Up to "
+            "three series per indicator. Earlier value = first year with "
+            "World data. Click an indicator for country data.")
+    if not with_world:
+        note = ("The UN publishes no World total for these series yet. "
+                + note)
+    return "\n".join(["### Latest global numbers", "", *rows, "", note])
+
+
+def ensure_block(body: str, name: str, content: str, after: str) -> str:
+    """Replace block `name`, or insert it right after block `after`."""
+    if block_re(name).search(body):
+        return replace_block(body, name, content)
+    m = block_re(after).search(body)
+    if not m:
+        raise KeyError(f"block UN:{after} not found")
+    return (body[:m.end()] + "\n\n" + make_block(name, content)
+            + body[m.end():])
 
 
 # --------------------------------------------------------------------------
@@ -322,28 +434,37 @@ def front_matter(goal: dict, target: dict, rep_t: dict) -> dict:
     }
 
 
-def update_problem(path: Path, goal: dict, target: dict, rep_t: dict) -> str:
+def update_problem(path: Path, goal: dict, target: dict, rep_t: dict,
+                   extra: dict[str, tuple[str, str]] | None = None) -> str:
+    """extra = {block name: (content, insert after block)}."""
     fresh = front_matter(goal, target, rep_t)
     blocks = problem_blocks(goal, target, rep_t)
     if not path.exists():
-        write_if_changed(path, dump_front_matter(fresh) + "\n"
-                         + problem_body(blocks))
+        body = problem_body(blocks)
+    else:
+        data, body = split_front_matter(path.read_text(encoding="utf-8"))
+        for key in UN_FIELDS:
+            data[key] = fresh[key]
+        for key, value in fresh.items():
+            data.setdefault(key, value)
+        fresh = data
+        for name, content in blocks.items():
+            if block_re(name).search(body):
+                body = replace_block(body, name, content)
+    for name, (content, after) in (extra or {}).items():
+        body = ensure_block(body, name, content, after)
+    if not path.exists():
+        write_if_changed(path, dump_front_matter(fresh) + "\n" + body)
         return "created"
-    data, body = split_front_matter(path.read_text(encoding="utf-8"))
-    for key in UN_FIELDS:
-        data[key] = fresh[key]
-    for key, value in fresh.items():
-        data.setdefault(key, value)
-    for name, content in blocks.items():
-        if block_re(name).search(body):
-            body = replace_block(body, name, content)
-    text = dump_front_matter(data) + body
+    text = dump_front_matter(fresh) + body
     return "updated" if write_if_changed(path, text) else "unchanged"
 
 
 def run() -> int:
     framework = load_json(FRAMEWORK_FILE)
     report = load_json(REPORT_FILE)
+    plain = load_plain()
+    snapshot = load_series()
     counts = {"created": 0, "updated": 0, "unchanged": 0}
     for goal in framework["goals"]:
         n = int(goal["code"])
@@ -362,8 +483,13 @@ def run() -> int:
             target = dict(target, indicators=sorted(
                 target["indicators"], key=lambda i: code_key(i["code"])))
             tdir = gdir / target_slug(target["code"], rep_t["short_title"])
+            extra = {"plain": (plain_block(target["code"],
+                                           plain.get(target["code"])),
+                               "header")}
+            if snapshot:
+                extra["data"] = (data_block(target, snapshot), "status")
             counts[update_problem(tdir / "problem.md", goal, target,
-                                  rep_t)] += 1
+                                  rep_t, extra)] += 1
             fmt = {"code": target["code"], "title": rep_t["short_title"]}
             for sub, tpl in (("research", RESEARCH_README),
                              ("solution", SOLUTION_README)):

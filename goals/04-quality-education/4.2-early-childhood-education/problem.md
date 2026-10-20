@@ -26,6 +26,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.2"
 **Goal 4: Quality education** · UN progress 2026: 🔴 Stagnation · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, all girls and boys should get good-quality early childhood care and pre-school, so they are ready to start primary school.
+>
+> **Who it is about:** Young children before primary school.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

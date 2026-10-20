@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=4&Target=4.c"
 **Goal 4: Quality education** · UN progress 2026: 🔴 Stagnation · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, greatly increase the number of qualified teachers, including through international cooperation on teacher training.
+>
+> **Who it is about:** Developing countries, especially least developed countries and small island developing States.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

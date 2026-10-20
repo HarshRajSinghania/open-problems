@@ -29,6 +29,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=11&Target=11.5"
 **Goal 11: Sustainable cities and communities** · UN progress 2026: 🟠 Marginal progress, significant acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, greatly reduce the number of deaths and people affected by disasters, including water-related disasters, and the money lost to them compared with the size of the world economy.
+>
+> **Who it is about:** Everyone, with a focus on poor people and people in vulnerable situations.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

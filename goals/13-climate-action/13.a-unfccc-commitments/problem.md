@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=13&Target=13.a"
 **Goal 13: Climate action** · UN progress 2026: 🟢 On track or target met · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Developed countries should deliver their UN climate convention promise to raise $100 billion a year together by 2020 for developing countries' climate needs, and get the Green Climate Fund fully funded and working as soon as possible.
+>
+> **Who it is about:** Developing countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

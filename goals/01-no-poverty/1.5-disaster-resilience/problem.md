@@ -32,6 +32,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=1&Target=1.5"
 **Goal 1: No poverty** · UN progress 2026: 🟡 Moderate progress, acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, help poor and vulnerable people cope with, and be less exposed to, climate-related extreme events and other economic, social and environmental shocks and disasters.
+>
+> **Who it is about:** Poor people and people in vulnerable situations.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

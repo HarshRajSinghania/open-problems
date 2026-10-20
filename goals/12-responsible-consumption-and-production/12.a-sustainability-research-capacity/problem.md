@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.a"
 **Goal 12: Responsible consumption and production** · UN progress 2026: 🟢 On track or target met · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Help developing countries build up their science and technology so they can move to more sustainable ways of consuming and producing.
+>
+> **Who it is about:** Developing countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

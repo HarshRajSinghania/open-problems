@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.12"
 **Goal 17: Partnerships for the Goals** · UN progress 2026: 🔴 Stagnation · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Give all least developed countries lasting duty-free and quota-free access to markets, as the World Trade Organization has decided, with simple and transparent 'rules of origin' for their goods.
+>
+> **Who it is about:** Least developed countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

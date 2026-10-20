@@ -26,6 +26,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.1"
 **Goal 17: Partnerships for the Goals** · UN progress 2026: 🔴 Stagnation · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Help countries raise more of their own money, for example through taxes, including with international support so developing countries get better at collecting tax and other revenue.
+>
+> **Who it is about:** Developing countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=12&Target=12.c"
 **Goal 12: Responsible consumption and production** · UN progress 2026: 🔻 Regression · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Reform wasteful fossil-fuel subsidies that encourage overuse - for example by changing taxes and phasing out harmful subsidies - to reflect their environmental impact. Take full account of developing countries' needs and protect poor and affected communities.
+>
+> **Who it is about:** Poor and affected communities; developing countries.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

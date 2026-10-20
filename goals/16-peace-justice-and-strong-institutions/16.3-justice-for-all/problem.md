@@ -29,6 +29,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=16&Target=16.3"
 **Goal 16: Peace, justice and strong institutions** · UN progress 2026: 🔴 Stagnation · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Promote the rule of law in every country and between countries, and make sure everyone has equal access to justice.
+>
+> **Who it is about:** Everyone.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

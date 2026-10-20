@@ -23,6 +23,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=14&Target=14.6"
 **Goal 14: Life below water** · UN progress 2026: 🟡 Moderate progress, acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2020, ban certain fishing subsidies that cause too many boats and overfishing, end subsidies that support illegal, unreported and unregulated fishing, and do not introduce new ones. Developing and least developed countries should get appropriate special treatment in the World Trade Organization talks on this.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

@@ -26,6 +26,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=2&Target=2.3"
 **Goal 2: Zero hunger** · UN progress 2026: ⚪ Insufficient data · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2030, double how much small-scale food producers grow and earn. They need secure and equal access to land, tools and inputs, knowledge, money, markets and chances to add value or earn off the farm.
+>
+> **Who it is about:** Small-scale food producers, especially women, Indigenous Peoples, family farmers, herders and fishers.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

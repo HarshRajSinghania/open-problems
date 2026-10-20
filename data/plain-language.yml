@@ -1,0 +1,446 @@
+# Plain-language summaries of the 169 UN SDG targets.
+#
+# Community-written. Each summary restates the official UN target text in
+# plain English (aim: a 14-year-old can follow it). It must stay faithful
+# to the official text: no new facts, numbers or claims.
+#
+#   summary: one or two short sentences.
+#   who:     who the target is about - only if the official text says so
+#            or directly implies it. Leave it out otherwise.
+#
+# Edit freely, then run `python tools/import_un_sdgs.py` to update the
+# "Plain-language summary" block in each problem.md. Keep the format:
+# a quoted target code, then two-space-indented `key: "text"` lines.
+
+"1.1":
+  summary: "By 2030, nobody anywhere should live in extreme poverty. The target text measures extreme poverty as living on less than $1.25 a day."
+  who: "Everyone living in extreme poverty, everywhere."
+"1.2":
+  summary: "By 2030, cut by at least half the share of people living in poverty, using each country's own definition of what poverty means there."
+  who: "Men, women and children of all ages."
+"1.3":
+  summary: "Every country should set up safety nets - such as pensions, child benefits or unemployment support - that suit its situation. By 2030 most poor and vulnerable people should be covered."
+  who: "Poor and vulnerable people."
+"1.4":
+  summary: "By 2030, everyone should have equal rights to money and resources and access to basic services. That includes owning land and property, inheriting, using natural resources and new technology, and using banks and small loans."
+  who: "All men and women, especially poor and vulnerable people."
+"1.5":
+  summary: "By 2030, help poor and vulnerable people cope with, and be less exposed to, climate-related extreme events and other economic, social and environmental shocks and disasters."
+  who: "Poor people and people in vulnerable situations."
+"1.a":
+  summary: "Raise much more money, from many sources and through more cooperation between countries, so developing countries have reliable funding for programmes that end poverty."
+  who: "Developing countries, especially the least developed countries."
+"1.b":
+  summary: "Make good policies at national, regional and international level that put poor people and gender equality first, so more money goes into ending poverty, faster."
+  who: "People living in poverty."
+"2.1":
+  summary: "By 2030, end hunger. Everyone should be able to get safe, nutritious and enough food all year round."
+  who: "Everyone, especially poor people, people in vulnerable situations and babies."
+"2.2":
+  summary: "By 2030, end all forms of malnutrition. This includes meeting the agreed 2025 goals on stunting (being too short for one's age) and wasting (being too thin for one's height) in children under 5."
+  who: "Children under 5, teenage girls, pregnant and breastfeeding women, and older people."
+"2.3":
+  summary: "By 2030, double how much small-scale food producers grow and earn. They need secure and equal access to land, tools and inputs, knowledge, money, markets and chances to add value or earn off the farm."
+  who: "Small-scale food producers, especially women, Indigenous Peoples, family farmers, herders and fishers."
+"2.4":
+  summary: "By 2030, food should be produced in ways that last. Farming should grow more food while protecting nature, coping with climate change, extreme weather, drought, floods and other disasters, and steadily improving land and soil."
+"2.5":
+  summary: "By 2020, protect the variety of seeds, crops and farm animals and their wild relatives, including through well-run seed and plant banks. Share the benefits of using these genetic resources and related traditional knowledge fairly."
+"2.a":
+  summary: "Invest more - including through international cooperation - in rural roads and services, farm research and advice, new technology, and plant and animal gene banks, so developing countries can grow more food."
+  who: "Developing countries, especially the least developed countries."
+"2.b":
+  summary: "Fix and prevent unfair trade rules in world farm markets, including by ending all subsidies for farm exports and similar measures, as agreed in the Doha trade talks."
+"2.c":
+  summary: "Make food markets work properly and help people get market information quickly, including about food reserves, so food prices do not jump up and down too much."
+"3.1":
+  summary: "By 2030, bring the number of women who die from pregnancy or childbirth below 70 for every 100,000 babies born alive, worldwide."
+  who: "Pregnant women and new mothers."
+"3.2":
+  summary: "By 2030, end preventable deaths of newborn babies and children under 5. Every country should aim for no more than 12 newborn deaths per 1,000 live births and no more than 25 deaths of under-5s per 1,000 live births."
+  who: "Newborn babies and children under 5."
+"3.3":
+  summary: "By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases. Fight hepatitis, diseases spread through water and other infectious diseases."
+"3.4":
+  summary: "By 2030, cut by one third the number of people who die too early from non-communicable diseases (like heart disease, cancer and diabetes), through prevention and treatment. Support mental health and well-being."
+"3.5":
+  summary: "Do more to prevent and treat substance abuse, including drug abuse and harmful drinking of alcohol."
+"3.6":
+  summary: "By 2020, halve the number of people killed and injured in road traffic crashes worldwide."
+"3.7":
+  summary: "By 2030, everyone should be able to get sexual and reproductive health care, including family planning, information and education. Countries should build reproductive health into their national plans."
+"3.8":
+  summary: "Make sure everyone can get good-quality essential health care without falling into money trouble, and can get safe, effective and affordable medicines and vaccines."
+  who: "Everyone."
+"3.9":
+  summary: "By 2030, greatly reduce deaths and illnesses caused by dangerous chemicals and by polluted air, water and soil."
+"3.a":
+  summary: "Put the World Health Organization's tobacco control treaty (the Framework Convention on Tobacco Control) into practice more strongly in all countries."
+"3.b":
+  summary: "Support research on vaccines and medicines for diseases that mainly affect developing countries, and give people access to affordable medicines and vaccines. Developing countries may fully use the flexibilities in global patent rules to protect public health."
+  who: "People in developing countries."
+"3.c":
+  summary: "Greatly increase money for health, and hire, train and keep more health workers in developing countries."
+  who: "Developing countries, especially least developed countries and small island developing States."
+"3.d":
+  summary: "Help all countries, especially developing countries, get better at spotting health threats early, lowering risks and managing national and global health emergencies."
+"4.1":
+  summary: "By 2030, all girls and boys should finish free, fair and good-quality primary and secondary school, and actually learn useful things."
+  who: "Girls and boys of school age."
+"4.2":
+  summary: "By 2030, all girls and boys should get good-quality early childhood care and pre-school, so they are ready to start primary school."
+  who: "Young children before primary school."
+"4.3":
+  summary: "By 2030, all women and men should have equal access to affordable, good-quality technical, vocational and higher education, including university."
+"4.4":
+  summary: "By 2030, many more young people and adults should have the skills - including technical and vocational skills - needed for jobs, decent work and starting businesses."
+  who: "Young people and adults."
+"4.5":
+  summary: "By 2030, remove gender gaps in education and make sure vulnerable people can access every level of education and training."
+  who: "Girls and boys, persons with disabilities, Indigenous Peoples and children in vulnerable situations."
+"4.6":
+  summary: "By 2030, all young people and a large share of adults should be able to read, write and do basic maths."
+  who: "Young people and adults, both men and women."
+"4.7":
+  summary: "By 2030, all learners should gain the knowledge and skills to support sustainable development. That includes learning about sustainable lifestyles, human rights, gender equality, peace and non-violence, global citizenship and respect for cultural diversity."
+  who: "All learners."
+"4.a":
+  summary: "Build and improve schools so they are safe, inclusive and good places to learn, and suit children, people with disabilities and both genders."
+"4.b":
+  summary: "By 2020, greatly increase the number of scholarships for students from developing countries to study in higher education - including vocational, ICT, technical, engineering and science programmes - in other countries."
+  who: "Students from developing countries, especially least developed countries, small island developing States and African countries."
+"4.c":
+  summary: "By 2030, greatly increase the number of qualified teachers, including through international cooperation on teacher training."
+  who: "Developing countries, especially least developed countries and small island developing States."
+"5.1":
+  summary: "End every form of discrimination against women and girls, everywhere."
+  who: "All women and girls."
+"5.2":
+  summary: "End all violence against women and girls, both in public and at home, including trafficking and sexual and other exploitation."
+  who: "All women and girls."
+"5.3":
+  summary: "End all harmful practices, such as child marriage, early and forced marriage, and female genital mutilation."
+  who: "Girls and women."
+"5.4":
+  summary: "Recognise and value unpaid care and housework. Do this through public services, infrastructure and social protection, and by sharing the work more fairly within households and families."
+  who: "The people who do unpaid care and domestic work."
+"5.5":
+  summary: "Make sure women take part fully and have equal chances to lead at every level of decision-making in politics, the economy and public life."
+  who: "Women."
+"5.6":
+  summary: "Make sure everyone can get sexual and reproductive health care and exercise reproductive rights, as agreed in the Cairo (ICPD) and Beijing international agreements."
+"5.a":
+  summary: "Change laws and systems so women have equal rights to economic resources, and can own and control land and property, use financial services, inherit and use natural resources, in line with national laws."
+  who: "Women."
+"5.b":
+  summary: "Use technology, especially information and communications technology such as mobile phones and the internet, more to empower women."
+  who: "Women."
+"5.c":
+  summary: "Adopt and strengthen good policies and laws that can be enforced, to promote gender equality and empower all women and girls at all levels."
+  who: "All women and girls."
+"6.1":
+  summary: "By 2030, everyone should have fair access to safe drinking water they can afford."
+  who: "Everyone."
+"6.2":
+  summary: "By 2030, everyone should have fair access to decent toilets and hygiene (like handwashing), and nobody should have to go to the toilet in the open."
+  who: "Everyone, with special attention to women and girls and people in vulnerable situations."
+"6.3":
+  summary: "By 2030, make water cleaner. Cut pollution, stop dumping, reduce release of dangerous chemicals, halve the share of wastewater that goes untreated, and recycle and safely reuse much more water."
+"6.4":
+  summary: "By 2030, use water much more efficiently in every sector and take only as much fresh water as can be sustained, so far fewer people suffer from water shortages."
+  who: "People affected by water scarcity."
+"6.5":
+  summary: "By 2030, manage water resources in a joined-up way at every level, including cooperation across borders where rivers, lakes or aquifers are shared."
+"6.6":
+  summary: "By 2020, protect and restore ecosystems linked to water, such as mountains, forests, wetlands, rivers, underground water stores (aquifers) and lakes."
+"6.a":
+  summary: "By 2030, give developing countries more international cooperation and training for water and sanitation work, such as collecting rainwater, desalination, water efficiency, wastewater treatment, recycling and reuse."
+  who: "Developing countries."
+"6.b":
+  summary: "Support local communities to take part in, and get better at, managing their water and sanitation."
+  who: "Local communities."
+"7.1":
+  summary: "By 2030, everyone should have access to affordable, reliable and modern energy services."
+  who: "Everyone."
+"7.2":
+  summary: "By 2030, greatly increase the share of the world's energy that comes from renewable sources."
+"7.3":
+  summary: "By 2030, double the speed at which the world gets better at using energy efficiently."
+"7.a":
+  summary: "By 2030, cooperate more internationally so countries can access clean energy research and technology (renewables, energy efficiency and cleaner fossil-fuel technology), and invest more in energy infrastructure and clean energy."
+"7.b":
+  summary: "By 2030, build more infrastructure and upgrade technology to supply modern and sustainable energy to everyone in developing countries."
+  who: "Developing countries, especially least developed countries, small island developing States and landlocked developing countries."
+"8.1":
+  summary: "Keep incomes per person growing in a way that fits each country, and in the least developed countries aim for the economy (GDP) to grow by at least 7 per cent a year."
+  who: "Least developed countries in particular."
+"8.2":
+  summary: "Make economies more productive by doing a wider range of things, upgrading technology and innovating, focusing on sectors that add high value or employ many people."
+"8.3":
+  summary: "Support policies that create decent jobs, businesses, creativity and innovation. Help micro, small and medium businesses become formal and grow, including by giving them access to financial services."
+  who: "Micro-, small- and medium-sized businesses and the people who work in them."
+"8.4":
+  summary: "Up to 2030, steadily use the world's resources more efficiently and try to grow the economy without damaging the environment, with developed countries leading the way."
+"8.5":
+  summary: "By 2030, everyone who wants to work should have a productive, decent job, with equal pay for work of equal value."
+  who: "All women and men, including young people and persons with disabilities."
+"8.6":
+  summary: "By 2020, greatly reduce the share of young people who are not in a job, education or training."
+  who: "Young people."
+"8.7":
+  summary: "Act now to end forced labour, modern slavery and human trafficking, and to ban and end the worst forms of child labour, including child soldiers. End all child labour by 2025."
+  who: "Children and people in forced labour or trafficked."
+"8.8":
+  summary: "Protect workers' rights and make workplaces safe and secure for all workers."
+  who: "All workers, including migrant workers (especially women migrants) and people in insecure jobs."
+"8.9":
+  summary: "By 2030, create and use policies for sustainable tourism that creates jobs and promotes local culture and products."
+"8.10":
+  summary: "Help a country's own banks and financial institutions offer banking, insurance and financial services to more people."
+  who: "Everyone, including people without access to financial services today."
+"8.a":
+  summary: "Increase 'Aid for Trade' - support that helps developing countries trade - including through the Enhanced Integrated Framework that gives trade-related technical help to the least developed countries."
+  who: "Developing countries, especially least developed countries."
+"8.b":
+  summary: "By 2020, create and put into action a global strategy for youth jobs, and carry out the International Labour Organization's Global Jobs Pact."
+  who: "Young people looking for work."
+"9.1":
+  summary: "Build good, reliable, sustainable and resilient infrastructure - including across borders - to support the economy and people's well-being, with affordable and fair access for everyone."
+  who: "Everyone."
+"9.2":
+  summary: "Grow industry in ways that include everyone and are sustainable. By 2030, raise industry's share of jobs and of the economy in line with each country's situation, and double it in the least developed countries."
+"9.3":
+  summary: "Help small industrial and other businesses, especially in developing countries, get financial services such as affordable loans, and connect to supply chains and markets."
+  who: "Small-scale businesses, especially in developing countries."
+"9.4":
+  summary: "By 2030, upgrade infrastructure and retrofit industries to make them sustainable: using resources more efficiently and using more clean, environmentally sound technologies and processes. All countries act according to what they can do."
+"9.5":
+  summary: "Do more scientific research and improve industries' technology in all countries. By 2030, encourage innovation and greatly increase the number of researchers per million people and public and private spending on research and development."
+"9.a":
+  summary: "Help developing countries build sustainable, resilient infrastructure by giving more financial, technological and technical support."
+  who: "African countries, least developed countries, landlocked developing countries and small island developing States."
+"9.b":
+  summary: "Support developing countries' own technology development, research and innovation, including with policies that help them diversify industry and add value to raw materials."
+  who: "Developing countries."
+"9.c":
+  summary: "Greatly increase access to information and communications technology, and work to give everyone in the least developed countries affordable internet access by 2020."
+  who: "People in the least developed countries."
+"10.1":
+  summary: "By 2030, the incomes of the poorest 40 per cent of people in a country should grow faster than the national average, and keep doing so."
+  who: "The poorest 40 per cent of each country's population."
+"10.2":
+  summary: "By 2030, help everyone take part in social, economic and political life, whatever their age, sex, disability, race, ethnicity, origin, religion, economic or other status."
+  who: "Everyone, especially people excluded because of who they are."
+"10.3":
+  summary: "Make sure everyone has equal opportunities and reduce unequal outcomes, including by removing discriminatory laws, policies and practices and promoting fair laws, policies and action."
+"10.4":
+  summary: "Adopt policies - especially on taxes and spending, wages and social protection - that step by step make societies more equal."
+"10.5":
+  summary: "Regulate and monitor global financial markets and institutions better, and enforce those rules more strongly."
+"10.6":
+  summary: "Give developing countries more representation and a stronger voice in global economic and financial institutions, so those institutions work better and are more credible, accountable and legitimate."
+  who: "Developing countries."
+"10.7":
+  summary: "Make it easier for people to migrate and move in an orderly, safe, regular and responsible way, including through well-planned and well-managed migration policies."
+  who: "Migrants and people on the move."
+"10.a":
+  summary: "Apply the World Trade Organization principle that developing countries, especially the least developed, get special and different (more flexible) treatment in trade rules."
+  who: "Developing countries, especially least developed countries."
+"10.b":
+  summary: "Encourage aid and money flows, including foreign investment, to the countries that need them most, in line with their own national plans."
+  who: "Least developed countries, African countries, small island developing States and landlocked developing countries."
+"10.c":
+  summary: "By 2030, cut the cost of sending money home (remittances) to under 3 per cent, and get rid of routes where it costs more than 5 per cent."
+  who: "Migrants who send money home and their families."
+"11.1":
+  summary: "By 2030, everyone should have adequate, safe and affordable housing and basic services, and slums should be upgraded."
+  who: "Everyone, including people living in slums."
+"11.2":
+  summary: "By 2030, everyone should have safe, affordable, accessible and sustainable transport. Improve road safety, especially by expanding public transport."
+  who: "Everyone, with special attention to people in vulnerable situations, women, children, persons with disabilities and older people."
+"11.3":
+  summary: "By 2030, make the growth of cities more inclusive and sustainable, and help all countries plan and manage towns and cities in a joined-up way that lets people take part."
+"11.4":
+  summary: "Do more to protect and safeguard the world's cultural and natural heritage."
+"11.5":
+  summary: "By 2030, greatly reduce the number of deaths and people affected by disasters, including water-related disasters, and the money lost to them compared with the size of the world economy."
+  who: "Everyone, with a focus on poor people and people in vulnerable situations."
+"11.6":
+  summary: "By 2030, reduce the harm each city resident does to the environment, paying special attention to air quality and to managing city and other waste."
+  who: "People living in cities."
+"11.7":
+  summary: "By 2030, everyone should have access to safe, inclusive and accessible green and public spaces, such as parks and squares."
+  who: "Everyone, in particular women and children, older people and persons with disabilities."
+"11.a":
+  summary: "Strengthen national and regional planning so cities, the areas around them and the countryside support each other economically, socially and environmentally."
+"11.b":
+  summary: "By 2020, greatly increase the number of cities and settlements with joined-up plans for inclusion, resource efficiency, climate action and disaster resilience. Manage disaster risk at all levels in line with the Sendai Framework (2015-2030)."
+"11.c":
+  summary: "Help the least developed countries, including with money and technical support, to build sustainable and resilient buildings using local materials."
+  who: "Least developed countries."
+"12.1":
+  summary: "Put into action the UN's 10-Year Framework of Programmes on sustainable consumption and production. All countries act, developed countries lead, and developing countries' situation and capabilities are taken into account."
+"12.2":
+  summary: "By 2030, manage natural resources sustainably and use them efficiently."
+"12.3":
+  summary: "By 2030, halve the food each person wastes in shops and at home worldwide, and reduce food lost along the way from farm to shop, including after harvest."
+"12.4":
+  summary: "By 2020, handle chemicals and all waste safely for the environment through their whole life cycle, as international agreements require, and greatly reduce how much is released into air, water and soil, to protect health and nature."
+"12.5":
+  summary: "By 2030, greatly reduce how much waste is created, by preventing, reducing, recycling and reusing."
+"12.6":
+  summary: "Encourage companies, especially large and multinational ones, to work sustainably and to report on their sustainability regularly."
+"12.7":
+  summary: "Encourage governments to buy goods and services in sustainable ways, in line with national policies and priorities."
+"12.8":
+  summary: "By 2030, people everywhere should have the information and awareness they need for sustainable development and lifestyles in harmony with nature."
+  who: "People everywhere."
+"12.a":
+  summary: "Help developing countries build up their science and technology so they can move to more sustainable ways of consuming and producing."
+  who: "Developing countries."
+"12.b":
+  summary: "Create and use tools to track the effects of sustainable tourism that creates jobs and promotes local culture and products."
+"12.c":
+  summary: "Reform wasteful fossil-fuel subsidies that encourage overuse - for example by changing taxes and phasing out harmful subsidies - to reflect their environmental impact. Take full account of developing countries' needs and protect poor and affected communities."
+  who: "Poor and affected communities; developing countries."
+"13.1":
+  summary: "Help all countries become stronger and better able to adapt to climate-related hazards and natural disasters."
+"13.2":
+  summary: "Build action on climate change into national policies, strategies and plans."
+"13.3":
+  summary: "Improve education, awareness, and the skills of people and institutions, on cutting emissions, adapting to climate change, reducing its impact and early warning."
+"13.a":
+  summary: "Developed countries should deliver their UN climate convention promise to raise $100 billion a year together by 2020 for developing countries' climate needs, and get the Green Climate Fund fully funded and working as soon as possible."
+  who: "Developing countries."
+"13.b":
+  summary: "Help least developed countries and small island developing States get better at planning and managing climate change action, including by focusing on women, young people and local and marginalised communities."
+  who: "Least developed countries and small island developing States; women, youth and local and marginalised communities."
+"14.1":
+  summary: "By 2025, prevent and greatly reduce all kinds of ocean pollution, especially pollution from land, including litter and nutrient pollution (for example from fertilisers)."
+"14.2":
+  summary: "By 2020, manage and protect ocean and coastal ecosystems sustainably to avoid serious harm, help them recover from damage, and restore them, so oceans are healthy and productive."
+"14.3":
+  summary: "Reduce and deal with the effects of ocean acidification (the sea becoming more acidic), including through more scientific cooperation at all levels."
+"14.4":
+  summary: "By 2020, regulate fishing properly and end overfishing, illegal, unreported and unregulated fishing and destructive fishing. Use science-based plans to bring fish stocks back as fast as possible to levels that can be fished sustainably."
+"14.5":
+  summary: "By 2020, protect at least 10 per cent of coastal and marine areas, in line with national and international law and the best available science."
+"14.6":
+  summary: "By 2020, ban certain fishing subsidies that cause too many boats and overfishing, end subsidies that support illegal, unreported and unregulated fishing, and do not introduce new ones. Developing and least developed countries should get appropriate special treatment in the World Trade Organization talks on this."
+"14.7":
+  summary: "By 2030, increase the economic benefits that small island developing States and least developed countries get from using ocean resources sustainably, including through well-managed fishing, fish farming and tourism."
+  who: "Small island developing States and least developed countries."
+"14.a":
+  summary: "Increase scientific knowledge, build research capacity and share ocean technology, following agreed international guidelines, to improve ocean health and help marine life support developing countries' development."
+  who: "Developing countries, especially small island developing States and least developed countries."
+"14.b":
+  summary: "Give small-scale traditional fishers access to ocean resources and to markets."
+  who: "Small-scale artisanal fishers."
+"14.c":
+  summary: "Better protect and sustainably use the oceans by putting into practice international law as set out in the UN Convention on the Law of the Sea."
+"15.1":
+  summary: "By 2020, conserve, restore and use sustainably land and freshwater ecosystems and what they provide, especially forests, wetlands, mountains and drylands, as international agreements require."
+"15.2":
+  summary: "By 2020, manage all kinds of forests sustainably, stop deforestation, restore damaged forests and greatly increase tree planting worldwide."
+"15.3":
+  summary: "By 2030, fight desertification, restore damaged land and soil - including land hit by desertification, drought and floods - and aim for a world where land is no longer degrading overall."
+"15.4":
+  summary: "By 2030, conserve mountain ecosystems and their wildlife, so they can keep providing benefits that sustainable development depends on."
+"15.5":
+  summary: "Act urgently to reduce damage to natural habitats and stop the loss of biodiversity. By 2020, protect threatened species and prevent them from going extinct."
+"15.6":
+  summary: "Share fairly the benefits that come from using genetic resources (like plants and animals used for medicines or crops), and support appropriate access to them, as internationally agreed."
+"15.7":
+  summary: "Act urgently to end poaching and trafficking of protected plants and animals, and tackle both the demand for and the supply of illegal wildlife products."
+"15.8":
+  summary: "By 2020, act to stop invasive alien species (plants and animals brought from elsewhere) from arriving, greatly reduce their impact on land and water ecosystems, and control or remove the priority ones."
+"15.9":
+  summary: "By 2020, include the value of ecosystems and biodiversity in national and local planning, development, poverty-reduction strategies and accounts."
+"15.a":
+  summary: "Raise much more money, from all sources, to conserve and sustainably use biodiversity and ecosystems."
+"15.b":
+  summary: "Raise significant money from all sources and at all levels to pay for sustainable forest management, and give developing countries good reasons (incentives) to do it, including conservation and replanting."
+  who: "Developing countries."
+"15.c":
+  summary: "Increase global support to fight poaching and trafficking of protected species, including by helping local communities find other sustainable ways to earn a living."
+  who: "Local communities."
+"16.1":
+  summary: "Greatly reduce all forms of violence, and the deaths it causes, everywhere."
+  who: "Everyone."
+"16.2":
+  summary: "End abuse, exploitation, trafficking, torture and all forms of violence against children."
+  who: "Children."
+"16.3":
+  summary: "Promote the rule of law in every country and between countries, and make sure everyone has equal access to justice."
+  who: "Everyone."
+"16.4":
+  summary: "By 2030, greatly reduce illegal flows of money and weapons, get better at recovering and returning stolen assets, and fight all forms of organised crime."
+"16.5":
+  summary: "Greatly reduce corruption and bribery in all their forms."
+"16.6":
+  summary: "Build institutions at every level that work well, are accountable and are open about what they do."
+"16.7":
+  summary: "Make sure decisions at every level respond to people's needs, include everyone, let people take part, and represent them fairly."
+"16.8":
+  summary: "Give developing countries a bigger and stronger role in the institutions that govern the world together."
+  who: "Developing countries."
+"16.9":
+  summary: "By 2030, give everyone a legal identity, including registering every birth."
+  who: "Everyone, including newborn babies."
+"16.10":
+  summary: "Make sure the public can access information and protect basic freedoms, in line with national laws and international agreements."
+  who: "Everyone."
+"16.a":
+  summary: "Strengthen national institutions, including through international cooperation, so they can prevent violence and fight terrorism and crime, especially in developing countries."
+"16.b":
+  summary: "Promote and enforce laws and policies that do not discriminate, for sustainable development."
+"17.1":
+  summary: "Help countries raise more of their own money, for example through taxes, including with international support so developing countries get better at collecting tax and other revenue."
+  who: "Developing countries."
+"17.2":
+  summary: "Developed countries should fully keep their promises on development aid. Many have promised 0.7 per cent of their national income (GNI) as aid to developing countries, and 0.15-0.20 per cent to the least developed countries. Donors are encouraged to aim for at least 0.20 per cent to the least developed countries."
+  who: "Developing countries, especially least developed countries."
+"17.3":
+  summary: "Raise extra money for developing countries from many different sources."
+  who: "Developing countries."
+"17.4":
+  summary: "Help developing countries keep their debts manageable over the long term, through coordinated policies on borrowing, debt relief and debt restructuring, and deal with the debt of heavily indebted poor countries."
+  who: "Developing countries, especially highly indebted poor countries."
+"17.5":
+  summary: "Adopt and use systems that encourage investment in the least developed countries."
+  who: "Least developed countries."
+"17.6":
+  summary: "Cooperate more between countries - North-South, South-South and three-way - on science, technology and innovation, share knowledge on agreed terms, and coordinate existing efforts better, including at the UN and through a global technology facilitation mechanism."
+"17.7":
+  summary: "Help develop and spread environmentally friendly technologies to developing countries on good terms, including cheaper or preferential terms, as agreed."
+  who: "Developing countries."
+"17.8":
+  summary: "By 2017, get the technology bank and the science, technology and innovation support system for least developed countries fully working, and increase the use of enabling technology, especially information and communications technology."
+  who: "Least developed countries."
+"17.9":
+  summary: "Increase international support for well-targeted training and capacity-building in developing countries, so they can carry out their national plans for all the SDGs."
+  who: "Developing countries."
+"17.10":
+  summary: "Promote a world trading system under the World Trade Organization that is universal, rules-based, open, non-discriminatory and fair, including by finishing the Doha trade talks."
+"17.11":
+  summary: "Greatly increase exports from developing countries, aiming to double the least developed countries' share of world exports by 2020."
+  who: "Developing countries, especially least developed countries."
+"17.12":
+  summary: "Give all least developed countries lasting duty-free and quota-free access to markets, as the World Trade Organization has decided, with simple and transparent 'rules of origin' for their goods."
+  who: "Least developed countries."
+"17.13":
+  summary: "Make the global economy more stable, including by coordinating policies and making them consistent with each other."
+"17.14":
+  summary: "Make sure different policies work together, not against each other, for sustainable development."
+"17.15":
+  summary: "Respect each country's right and room to set and lead its own policies for ending poverty and for sustainable development."
+"17.16":
+  summary: "Strengthen the Global Partnership for Sustainable Development, with partnerships between many kinds of groups that share knowledge, expertise, technology and money to help all countries, especially developing countries, reach the SDGs."
+"17.17":
+  summary: "Encourage effective partnerships between governments, between the public and private sectors, and with civil society, building on what past partnerships have learned."
+"17.18":
+  summary: "By 2020, give developing countries more help to greatly increase good-quality, timely and reliable data, broken down by income, gender, age, race, ethnicity, migration status, disability, location and other relevant characteristics."
+  who: "Developing countries, especially least developed countries and small island developing States."
+"17.19":
+  summary: "By 2030, build on existing work to create measures of progress on sustainable development that go beyond GDP, and help developing countries build up their statistics."
+  who: "Developing countries."

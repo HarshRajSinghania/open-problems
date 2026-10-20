@@ -29,6 +29,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=17&Target=17.18"
 **Goal 17: Partnerships for the Goals** · UN progress 2026: 🟠 Marginal progress, significant acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2020, give developing countries more help to greatly increase good-quality, timely and reliable data, broken down by income, gender, age, race, ethnicity, migration status, disability, location and other relevant characteristics.
+>
+> **Who it is about:** Developing countries, especially least developed countries and small island developing States.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

@@ -26,6 +26,12 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=11&Target=11.b"
 **Goal 11: Sustainable cities and communities** · UN progress 2026: 🟢 On track or target met · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** By 2020, greatly increase the number of cities and settlements with joined-up plans for inclusion, resource efficiency, climate action and disaster resilience. Manage disaster risk at all levels in line with the Sendai Framework (2015-2030).
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->

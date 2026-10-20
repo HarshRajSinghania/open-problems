@@ -23,6 +23,14 @@ source_url: "https://unstats.un.org/sdgs/metadata/?Text=&Goal=8&Target=8.7"
 **Goal 8: Decent work and economic growth** · UN progress 2026: 🟠 Marginal progress, significant acceleration needed · [All targets in this goal](../README.md)
 <!-- UN:END header -->
 
+<!-- UN:START plain -->
+> **In plain language:** Act now to end forced labour, modern slavery and human trafficking, and to ban and end the worst forms of child labour, including child soldiers. End all child labour by 2025.
+>
+> **Who it is about:** Children and people in forced labour or trafficked.
+>
+> <sub>[Edit](../../../data/plain-language.yml) · community-written, not official UN text. Check it against the [UN target](#the-problem-un-target) below.</sub>
+<!-- UN:END plain -->
+
 ## The problem (UN target)
 
 <!-- UN:START target -->
